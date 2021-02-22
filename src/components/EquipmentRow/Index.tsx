@@ -5,7 +5,7 @@ import trans from '../../../public/assets/json/translationEquipmentsDnD.json';
 
 import { Item } from './styles';
 
-export interface Equipment {
+interface Equipment {
 
     index: string;
     name: string;
@@ -19,7 +19,7 @@ export interface Equipment {
 
 }
 
-export function EquipmentRow(equip: Equipment) {
+export default function EquipmentRow(equip: Equipment) {
 
     const { index, name, cost, category, type, weight, isListed, inventoryFunction, inventory } = equip;
     

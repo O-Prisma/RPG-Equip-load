@@ -22,19 +22,27 @@ export interface Equipment {
 export function EquipmentRow(equip: Equipment) {
 
     const { index, name, cost, category, type, weight, isListed, inventoryFunction, inventory } = equip;
+    
+    function capitalize(string) {
+
+        let str = String(string);
+
+        return str.charAt(0).toUpperCase() + str.substring(1, str.length);
+
+    }
 
     return (
 
         <Item>
 
             <Link href={`/equipment/${encodeURIComponent(index)}`}>
-                <h2 className="name">{trans[name.toLowerCase()].capitalize()}</h2>
+                <h2 className="name">{capitalize(trans[name.toLowerCase()])}</h2>
             </Link>
 
             <div className="infos">
                 <div className="cost"><div className="label">Custo:</div> {cost.value + ' ' + trans[cost.unit]}</div>
-                <div className="category"><div className="label">Categoria:</div> {trans[category.toLowerCase()].capitalize()}</div>
-                <div className="type"><div className="label">Tipo:</div> {trans[type.toLowerCase()].capitalize()}</div>
+                <div className="category"><div className="label">Categoria:</div> {capitalize(trans[category.toLowerCase()])}</div>
+                <div className="type"><div className="label">Tipo:</div> {capitalize(trans[type.toLowerCase()])}</div>
                 <div className="weight"><div className="label">Peso:</div> {weight['kg'] + ' kg'}</div>
             </div>
 

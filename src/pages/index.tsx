@@ -82,7 +82,7 @@ export default function Index() {
 
     }
 
-    function getInventoryRows({index, name, cost, category, properties, type}) {
+    function getInventoryRows({index, name, cost, properties}) {
 
         return (
 

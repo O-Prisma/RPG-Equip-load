@@ -9,12 +9,20 @@ import { ItemContainer, ItemInfos } from './styles';
 
 function Equipment({ itemIndex, trans }) {
 
+    function capitalize(string) {
+
+        let str = String(string);
+
+        return str.charAt(0).toUpperCase() + str.substring(1, str.length);
+
+    }
+
     return (
         
         <ItemContainer>
 
             <Head>
-                <title>Equipamento: {trans[itemIndex.name.toLowerCase()].capitalize()}</title>
+                <title>Equipamento: {capitalize(trans[itemIndex.name.toLowerCase()])}</title>
             </Head>
 
             <div className="header">
@@ -26,7 +34,7 @@ function Equipment({ itemIndex, trans }) {
 
                 <div className="title">
 
-                    <h1 className="name">{trans[itemIndex.name.toLowerCase()].capitalize()}</h1>
+                    <h1 className="name">{capitalize(trans[itemIndex.name.toLowerCase()])}</h1>
                 
                 </div>
                 
@@ -47,7 +55,7 @@ function Equipment({ itemIndex, trans }) {
 
                             <i className="material-icons icon">bookmark</i>
                             <p className="info">Categoria: </p>
-                            <p className="data">{trans[itemIndex.category].capitalize()}</p>
+                            <p className="data">{capitalize(trans[itemIndex.category])}</p>
 
                         </ItemInfos>
 
@@ -55,7 +63,7 @@ function Equipment({ itemIndex, trans }) {
 
                             <i className="material-icons icon">info_outline</i>
                             <p className="info">Tipo: </p>
-                            <p className="data">{trans[itemIndex.type].capitalize()}</p>
+                            <p className="data">{capitalize(trans[itemIndex.type])}</p>
 
                         </ItemInfos>
 

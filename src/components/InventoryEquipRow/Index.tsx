@@ -19,11 +19,19 @@ export function InventoryEquipRow(equip: Equipment) {
 
     const { index, name, cost, weight, inventoryFunction, inventory } = equip;
 
+    function capitalize(string) {
+
+        let str = String(string);
+
+        return str.charAt(0).toUpperCase() + str.substring(1, str.length);
+
+    }
+
     return (
 
         <InventoryContainer>
 
-            <h2 className="name">{trans[name.toLowerCase()].capitalize()}</h2>
+            <h2 className="name">{capitalize(trans[name.toLowerCase()])}</h2>
 
             <div className="infos">
                 <div className="cost"><div className="label">Custo:</div> {cost.value + ' ' + trans[cost.unit]}</div>

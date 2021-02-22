@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const InventoryContainer = styled.div`
+const InventoryContainer = styled.div`
 
     min-width: 350px;
     text-align: center;
@@ -61,3 +61,5 @@ export const InventoryContainer = styled.div`
     }
 
 `;
+
+export default InventoryContainer;

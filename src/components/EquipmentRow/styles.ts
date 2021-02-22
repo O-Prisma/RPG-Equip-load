@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Item = styled.li`
+const Item = styled.li`
 
     list-style: none;
 
@@ -107,3 +107,5 @@ export const Item = styled.li`
     }
 
 `;
+
+export default Item;

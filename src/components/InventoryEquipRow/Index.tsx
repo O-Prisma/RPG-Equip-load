@@ -2,7 +2,7 @@ import Router from "next/router";
 
 import trans from '../../../public/assets/json/translationEquipmentsDnD.json';
 
-import { InventoryContainer } from './styles';
+import InventoryContainer from './styles';
 
 export interface Equipment {
 

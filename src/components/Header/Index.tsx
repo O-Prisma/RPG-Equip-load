@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
 
-import { Container } from './styles';
+import Container from './styles';
 
 export default function Header({ children }) {
  

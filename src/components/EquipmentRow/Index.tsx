@@ -3,7 +3,7 @@ import Router from "next/router";
 
 import trans from '../../../public/assets/json/translationEquipmentsDnD.json';
 
-import { Item } from './styles';
+import Item from './styles';
 
 interface Equipment {
 

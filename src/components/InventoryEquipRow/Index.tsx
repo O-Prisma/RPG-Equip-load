@@ -15,9 +15,7 @@ export interface Equipment {
 
 }
 
-export function InventoryEquipRow(
-    equip: Equipment
-) {
+export function InventoryEquipRow(equip: Equipment) {
 
     const { index, name, cost, weight, inventoryFunction, inventory } = equip;
 

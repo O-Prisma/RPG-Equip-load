@@ -9,14 +9,6 @@ import { ItemContainer, ItemInfos } from './styles';
 
 function Equipment({ itemIndex, trans }) {
 
-    String.prototype.capitalize = function() {
-
-        let str = String(this);
-
-        return str.charAt(0).toUpperCase() + str.substring(1, str.length);
-
-    }
-
     return (
         
         <ItemContainer>

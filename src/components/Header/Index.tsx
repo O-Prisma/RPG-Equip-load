@@ -4,18 +4,6 @@ import Link from 'next/link';
 import { Container } from './styles';
 
 export function Header({ children }) {
-
-    function getPagePath() {
-
-        if (typeof window === 'undefined') {
-
-            return null;
-
-        }
-
-        return document.location.pathname;
-
-    }
  
     return (
 

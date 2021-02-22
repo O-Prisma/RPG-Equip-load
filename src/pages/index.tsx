@@ -7,17 +7,8 @@ import { Container } from './styles';
 
 import equipments from '../../public/assets/json/equipmentsDnD.json';
 import trans from '../../public/assets/json/translationEquipmentsDnD.json';
-import { SSL_OP_SSLEAY_080_CLIENT_DH_BUG } from 'constants';
 
 export default function Index() {
-    
-    String.prototype.capitalize = function() {
-    
-        let str = String(this);
-    
-        return str.charAt(0).toUpperCase() + str.substring(1, str.length);
-    
-    }
 
     function useLocalStorage(key, defaultValue) {
 
@@ -30,8 +21,6 @@ export default function Index() {
                 return item ? JSON.parse(item) : defaultValue;
 
             } catch (error) {
-
-                //console.log(error);
 
                 return defaultValue;
 

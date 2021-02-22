@@ -8,7 +8,7 @@ import { Container } from './styles';
 import equipments from '../../public/assets/json/equipmentsDnD.json';
 import trans from '../../public/assets/json/translationEquipmentsDnD.json';
 
-export default function Index() {
+function Index() {
 
     function useLocalStorage(key, defaultValue) {
 
@@ -192,3 +192,5 @@ export default function Index() {
     )
 
 }
+
+export default Index;

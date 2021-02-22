@@ -1,0 +1,2977 @@
+[
+
+    {
+        "index": "padded",
+        "name": "Padded",
+        "cost": {
+            "value": 5,
+            "unit": "gp"
+        },
+        "category": "armor",
+        "type": "light",
+        "properties": {
+            "armor class": {
+                "base value": 11,
+                "attribute": "dex",
+                "max": "none"
+            },
+            "base strength": 0,
+            "stealth bonus": "disadvantage",
+            "weight": {
+                "lbs": 8,
+                "kg": 4
+            }
+        }
+    },
+
+    {
+        "index": "leather",
+        "name": "Leather",
+        "cost": {
+            "value": 10,
+            "unit": "gp"
+        },
+        "category": "armor",
+        "type": "light",
+        "properties": {
+            "armor class": {
+                "base value": 11,
+                "attribute": "dex",
+                "max": "none"
+            },
+            "base strength": 0,
+            "stealth bonus": "none",
+            "weight": {
+                "lbs": 10,
+                "kg": 5
+            }
+        }
+    },
+
+    {
+        "index": "studded-leather",
+        "name": "Studded leather",
+        "cost": {
+            "value": 45,
+            "unit": "gp"
+        },
+        "category": "armor",
+        "type": "light",
+        "properties": {
+            "armor class": {
+                "base value": 12,
+                "attribute": "dex",
+                "max": "none"
+            },
+            "base strength": 0,
+            "stealth bonus": "none",
+            "weight": {
+                "lbs": 13,
+                "kg": 6.5
+            }
+        }
+    },
+
+    {
+        "index": "hide",
+        "name": "Hide",
+        "cost": {
+            "value": 10,
+            "unit": "gp"
+        },
+        "category": "armor",
+        "type": "medium",
+        "properties": {
+            "armor class": {
+                "base value": 12,
+                "attribute": "dex",
+                "max": 2
+            },
+            "base strength": 0,
+            "stealth bonus": "none",
+            "weight": {
+                "lbs": 12,
+                "kg": 6
+            }
+        }
+    },
+
+    {
+        "index": "chain-shirt",
+        "name": "Chain shirt",
+        "cost": {
+            "value": 50,
+            "unit": "gp"
+        },
+        "category": "armor",
+        "type": "medium",
+        "properties": {
+            "armor class": {
+                "base value": 13,
+                "attribute": "dex",
+                "max": 2
+            },
+            "base strength": 0,
+            "stealth bonus": "none",
+            "weight": {
+                "lbs": 20,
+                "kg": 10
+            }
+        }
+    },
+
+    {
+        "index": "scale-mail",
+        "name": "Scale mail",
+        "cost": {
+            "value": 50,
+            "unit": "gp"
+        },
+        "category": "armor",
+        "type": "medium",
+        "properties": {
+            "armor class": {
+                "base value": 14,
+                "attribute": "dex",
+                "max": 2
+            },
+            "base strength": 0,
+            "stealth bonus": "disadvantage",
+            "weight": {
+                "lbs": 45,
+                "kg": 22.5
+            }
+        }
+    },
+
+    {
+        "index": "breastplate",
+        "name": "Breastplate",
+        "cost": {
+            "value": 400,
+            "unit": "gp"
+        },
+        "category": "armor",
+        "type": "medium",
+        "properties": {
+            "armor class": {
+                "base value": 14,
+                "attribute": "dex",
+                "max": 2
+            },
+            "base strength": 0,
+            "stealth bonus": "none",
+            "weight": {
+                "lbs": 20,
+                "kg": 10
+            }
+        }
+    },
+
+    {
+        "index": "half-plate",
+        "name": "Half plate",
+        "cost": {
+            "value": 750,
+            "unit": "gp"
+        },
+        "category": "armor",
+        "type": "medium",
+        "properties": {
+            "armor class": {
+                "base value": 15,
+                "attribute": "dex",
+                "max": 2
+            },
+            "base strength": 0,
+            "stealth bonus": "disadvantage",
+            "weight": {
+                "lbs": 40,
+                "kg": 20
+            }
+        }
+    },
+
+    {
+        "index": "ring-mail",
+        "name": "Ring mail",
+        "cost": {
+            "value": 30,
+            "unit": "gp"
+        },
+        "category": "armor",
+        "type": "heavy",
+        "properties": {
+            "armor class": {
+                "base value": 14,
+                "attribute": "none",
+                "max": "none"
+            },
+            "base strength": 0,
+            "stealth bonus": "disadvantage",
+            "weight": {
+                "lbs": 40,
+                "kg": 20
+            }
+        }
+    },
+
+    {
+        "index": "chain-mail",
+        "name": "Chain mail",
+        "cost": {
+            "value": 75,
+            "unit": "gp"
+        },
+        "category": "armor",
+        "type": "heavy",
+        "properties": {
+            "armor class": {
+                "base value": 16,
+                "attribute": "none",
+                "max": "none"
+            },
+            "base strength": 13,
+            "stealth bonus": "disadvantage",
+            "weight": {
+                "lbs": 55,
+                "kg": 27.5
+            }
+        }
+    },
+
+    {
+        "index": "splint",
+        "name": "splint",
+        "cost": {
+            "value": 200,
+            "unit": "gp"
+        },
+        "category": "armor",
+        "type": "heavy",
+        "properties": {
+            "armor class": {
+                "base value": 17,
+                "attribute": "none",
+                "max": "none"
+            },
+            "base strength": 15,
+            "stealth bonus": "disadvantage",
+            "weight": {
+                "lbs": 60,
+                "kg": 30
+            }
+        }
+    },
+
+    {
+        "index": "plate",
+        "name": "Plate",
+        "cost": {
+            "value": 1500,
+            "unit": "gp"
+        },
+        "category": "armor",
+        "type": "heavy",
+        "properties": {
+            "armor class": {
+                "base value": 18,
+                "attribute": "none",
+                "max": "none"
+            },
+            "base strength": 15,
+            "stealth bonus": "disadvantage",
+            "weight": {
+                "lbs": 65,
+                "kg": 32.5
+            }
+        }
+    },
+
+    {
+        "index": "shield",
+        "name": "Shield",
+        "cost": {
+            "value": 10,
+            "unit": "gp"
+        },
+        "category": "armor",
+        "type": "shield",
+        "properties": {
+            "armor class": {
+                "base value": "+2",
+                "attribute": "none",
+                "max": "none"
+            },
+            "base strength": 0,
+            "stealth bonus": "none",
+            "weight": {
+                "lbs": 6,
+                "kg": 3
+            }
+        }
+    },
+
+    {
+        "index": "club",
+        "name": "Club",
+        "cost": {
+            "value": 1,
+            "unit": "sp"
+        },
+        "category": "weapon",
+        "type": "simple melee",
+        "properties": {
+            "damage": {
+                "dice": "1d4",
+                "type": "bludgeoning"
+            },
+            "characteristics": [ 
+                "light"
+            ],
+            "weight": {
+                "lbs": 2,
+                "kg": 1
+            }
+        }
+    },
+
+    {
+        "index": "dagger",
+        "name": "Dagger",
+        "cost": {
+            "value": 2,
+            "unit": "gp"
+        },
+        "category": "weapon",
+        "type": "simple melee",
+        "properties": {
+            "damage": {
+                "dice": "1d4",
+                "type": "piercing"
+            },
+            "characteristics": [ 
+                "light",
+                "finesse",
+                "thrown (range 20/60)"
+            ],
+            "weight": {
+                "lbs": 1,
+                "kg": 0.5
+            }
+        }
+    },
+
+    {
+        "index": "greatclub",
+        "name": "Greatclub",
+        "cost": {
+            "value": 2,
+            "unit": "sp"
+        },
+        "category": "weapon",
+        "type": "simple melee",
+        "properties": {
+            "damage": {
+                "dice": "1d8",
+                "type": "bludgeoning"
+            },
+            "characteristics": [ 
+                "two-handed"
+            ],
+            "weight": {
+                "lbs": 10,
+                "kg": 5
+            }
+        }
+    },
+
+    {
+        "index": "handaxe",
+        "name": "Handaxe",
+        "cost": {
+            "value": 5,
+            "unit": "gp"
+        },
+        "category": "weapon",
+        "type": "simple melee",
+        "properties": {
+            "damage": {
+                "dice": "1d6",
+                "type": "slashing"
+            },
+            "characteristics": [ 
+                "light",
+                "thrown (range 20/60)"
+            ],
+            "weight": {
+                "lbs": 2,
+                "kg": 1
+            }
+        }
+    },
+
+    {
+        "index": "javelin",
+        "name": "Javelin",
+        "cost": {
+            "value": 5,
+            "unit": "sp"
+        },
+        "category": "weapon",
+        "type": "simple melee",
+        "properties": {
+            "damage": {
+                "dice": "1d6",
+                "type": "piercing"
+            },
+            "characteristics": [ 
+                "thrown (range 30/120)"
+            ],
+            "weight": {
+                "lbs": 2,
+                "kg": 1
+            }
+        }
+    },
+
+    {
+        "index": "light-hammer",
+        "name": "Light Hammer",
+        "cost": {
+            "value": 2,
+            "unit": "gp"
+        },
+        "category": "weapon",
+        "type": "simple melee",
+        "properties": {
+            "damage": {
+                "dice": "1d4",
+                "type": "bludgeoning"
+            },
+            "characteristics": [ 
+                "light",
+                "thrown (range 20/60)"
+            ],
+            "weight": {
+                "lbs": 2,
+                "kg": 1
+            }
+        }
+    },
+
+    {
+        "index": "mace",
+        "name": "Mace",
+        "cost": {
+            "value": 5,
+            "unit": "gp"
+        },
+        "category": "weapon",
+        "type": "simple melee",
+        "properties": {
+            "damage": {
+                "dice": "1d6",
+                "type": "bludgeoning"
+            },
+            "characteristics": [],
+            "weight": {
+                "lbs": 4,
+                "kg": 2
+            }
+        }
+    },
+
+    {
+        "index": "quarterstaff",
+        "name": "Quarterstaff",
+        "cost": {
+            "value": 2,
+            "unit": "sp"
+        },
+        "category": "weapon",
+        "type": "simple melee",
+        "properties": {
+            "damage": {
+                "dice": "1d6",
+                "type": "bludgeoning"
+            },
+            "characteristics": [
+                "versatile (1d8)"
+            ],
+            "weight": {
+                "lbs": 4,
+                "kg": 2
+            }
+        }
+    },
+
+    {
+        "index": "sickle",
+        "name": "Sickle",
+        "cost": {
+            "value": 1,
+            "unit": "gp"
+        },
+        "category": "weapon",
+        "type": "simple melee",
+        "properties": {
+            "damage": {
+                "dice": "1d4",
+                "type": "slashing"
+            },
+            "characteristics": [
+                "light"
+            ],
+            "weight": {
+                "lbs": 2,
+                "kg": 1
+            }
+        }
+    },
+
+    {
+        "index": "spear",
+        "name": "Spear",
+        "cost": {
+            "value": 1,
+            "unit": "gp"
+        },
+        "category": "weapon",
+        "type": "simple melee",
+        "properties": {
+            "damage": {
+                "dice": "1d6",
+                "type": "piercing"
+            },
+            "characteristics": [
+                "thrown (range 20/60)",
+                "versatile (1d8)"
+            ],
+            "weight": {
+                "lbs": 3,
+                "kg": 1.5
+            }
+        }
+    },
+
+    {
+        "index": "crossbow-light",
+        "name": "Crossbow, light",
+        "cost": {
+            "value": 25,
+            "unit": "gp"
+        },
+        "category": "weapon",
+        "type": "simple ranged",
+        "properties": {
+            "damage": {
+                "dice": "1d8",
+                "type": "piercing"
+            },
+            "characteristics": [
+                "ammunition (range 80/320)",
+                "loading",
+                "two-handed"
+            ],
+            "weight": {
+                "lbs": 5,
+                "kg": 2.5
+            }
+        }
+    },
+
+    {
+        "index": "dart",
+        "name": "Dart",
+        "cost": {
+            "value": 5,
+            "unit": "cp"
+        },
+        "category": "weapon",
+        "type": "simple ranged",
+        "properties": {
+            "damage": {
+                "dice": "1d4",
+                "type": "piercing"
+            },
+            "characteristics": [
+                "finesse",
+                "thrown (range 20/60)"
+            ],
+            "weight": {
+                "lbs": 0.25,
+                "kg": 0.1
+            }
+        }
+    },
+
+    {
+        "index": "shortbow",
+        "name": "Shortbow",
+        "cost": {
+            "value": 25,
+            "unit": "gp"
+        },
+        "category": "weapon",
+        "type": "simple ranged",
+        "properties": {
+            "damage": {
+                "dice": "1d6",
+                "type": "piercing"
+            },
+            "characteristics": [
+                "ammunition (range 80/320)",
+                "two-handed"
+            ],
+            "weight": {
+                "lbs": 2,
+                "kg": 1
+            }
+        }
+    },
+
+    {
+        "index": "sling",
+        "name": "Sling",
+        "cost": {
+            "value": 1,
+            "unit": "sp"
+        },
+        "category": "weapon",
+        "type": "simple ranged",
+        "properties": {
+            "damage": {
+                "dice": "1d4",
+                "type": "bludgeoning"
+            },
+            "characteristics": [
+                "ammunition (range 80/120)"
+            ],
+            "weight": {
+                "lbs": 0,
+                "kg": 0
+            }
+        }
+    },
+
+    {
+        "index": "battleaxe",
+        "name": "Battleaxe",
+        "cost": {
+            "value": 10,
+            "unit": "gp"
+        },
+        "category": "weapon",
+        "type": "martial melee",
+        "properties": {
+            "damage": {
+                "dice": "1d8",
+                "type": "slashing"
+            },
+            "characteristics": [
+                "versatile (1d10)"
+            ],
+            "weight": {
+                "lbs": 4,
+                "kg": 2
+            }
+        }
+    },
+
+    {
+        "index": "flail",
+        "name": "Flail",
+        "cost": {
+            "value": 10,
+            "unit": "gp"
+        },
+        "category": "weapon",
+        "type": "martial melee",
+        "properties": {
+            "damage": {
+                "dice": "1d8",
+                "type": "bludgeoning"
+            },
+            "characteristics": [],
+            "weight": {
+                "lbs": 2,
+                "kg": 1
+            }
+        }
+    },
+
+    {
+        "index": "glaive",
+        "name": "Glaive",
+        "cost": {
+            "value": 20,
+            "unit": "gp"
+        },
+        "category": "weapon",
+        "type": "martial melee",
+        "properties": {
+            "damage": {
+                "dice": "1d10",
+                "type": "slashing"
+            },
+            "characteristics": [
+                "heavy",
+                "reach",
+                "two-handed"
+            ],
+            "weight": {
+                "lbs": 6,
+                "kg": 3
+            }
+        }
+    },
+
+    {
+        "index": "greataxe",
+        "name": "Greataxe",
+        "cost": {
+            "value": 30,
+            "unit": "gp"
+        },
+        "category": "weapon",
+        "type": "martial melee",
+        "properties": {
+            "damage": {
+                "dice": "1d12",
+                "type": "slashing"
+            },
+            "characteristics": [
+                "heavy",
+                "two-handed"
+            ],
+            "weight": {
+                "lbs": 7,
+                "kg": 3.5
+            }
+        }
+    },
+
+    {
+        "index": "greatsword",
+        "name": "Greatsword",
+        "cost": {
+            "value": 50,
+            "unit": "gp"
+        },
+        "category": "weapon",
+        "type": "martial melee",
+        "properties": {
+            "damage": {
+                "dice": "2d6",
+                "type": "slashing"
+            },
+            "characteristics": [
+                "heavy",
+                "two-handed"
+            ],
+            "weight": {
+                "lbs": 6,
+                "kg": 3
+            }
+        }
+    },
+
+    {
+        "index": "halberd",
+        "name": "Halberd",
+        "cost": {
+            "value": 20,
+            "unit": "gp"
+        },
+        "category": "weapon",
+        "type": "martial melee",
+        "properties": {
+            "damage": {
+                "dice": "1d10",
+                "type": "slashing"
+            },
+            "characteristics": [
+                "heavy",
+                "reach",
+                "two-handed"
+            ],
+            "weight": {
+                "lbs": 6,
+                "kg": 3
+            }
+        }
+    },
+
+    {
+        "index": "lance",
+        "name": "Lance",
+        "cost": {
+            "value": 10,
+            "unit": "gp"
+        },
+        "category": "weapon",
+        "type": "martial melee",
+        "properties": {
+            "damage": {
+                "dice": "1d12",
+                "type": "piercing"
+            },
+            "characteristics": [
+                "reach",
+                "special"
+            ],
+            "weight": {
+                "lbs": 6,
+                "kg": 3
+            }
+        }
+    },
+
+    {
+        "index": "longsword",
+        "name": "Longsword",
+        "cost": {
+            "value": 15,
+            "unit": "gp"
+        },
+        "category": "weapon",
+        "type": "martial melee",
+        "properties": {
+            "damage": {
+                "dice": "1d8",
+                "type": "slashing"
+            },
+            "characteristics": [
+                "versatile (1d10)"
+            ],
+            "weight": {
+                "lbs": 3,
+                "kg": 1.5
+            }
+        }
+    },
+
+    {
+        "index": "maul",
+        "name": "Maul",
+        "cost": {
+            "value": 10,
+            "unit": "gp"
+        },
+        "category": "weapon",
+        "type": "martial melee",
+        "properties": {
+            "damage": {
+                "dice": "2d6",
+                "type": "bludgeoning"
+            },
+            "characteristics": [
+                "heavy",
+                "two-handed"
+            ],
+            "weight": {
+                "lbs": 10,
+                "kg": 5
+            }
+        }
+    },
+
+    {
+        "index": "morningstar",
+        "name": "Morningstar",
+        "cost": {
+            "value": 15,
+            "unit": "gp"
+        },
+        "category": "weapon",
+        "type": "martial melee",
+        "properties": {
+            "damage": {
+                "dice": "1d8",
+                "type": "piercing"
+            },
+            "characteristics": [],
+            "weight": {
+                "lbs": 4,
+                "kg": 2
+            }
+        }
+    },
+
+    {
+        "index": "pike",
+        "name": "Pike",
+        "cost": {
+            "value": 5,
+            "unit": "gp"
+        },
+        "category": "weapon",
+        "type": "martial melee",
+        "properties": {
+            "damage": {
+                "dice": "1d10",
+                "type": "piercing"
+            },
+            "characteristics": [
+                "heavy",
+                "reach",
+                "two-handed"
+            ],
+            "weight": {
+                "lbs": 18,
+                "kg": 4
+            }
+        }
+    },
+
+    {
+        "index": "rapier",
+        "name": "Rapier",
+        "cost": {
+            "value": 25,
+            "unit": "gp"
+        },
+        "category": "weapon",
+        "type": "martial melee",
+        "properties": {
+            "damage": {
+                "dice": "1d8",
+                "type": "piercing"
+            },
+            "characteristics": [
+                "finesse"
+            ],
+            "weight": {
+                "lbs": 2,
+                "kg": 1
+            }
+        }
+    },
+
+    {
+        "index": "scimitar",
+        "name": "Scimitar",
+        "cost": {
+            "value": 25,
+            "unit": "gp"
+        },
+        "category": "weapon",
+        "type": "martial melee",
+        "properties": {
+            "damage": {
+                "dice": "1d6",
+                "type": "slashing"
+            },
+            "characteristics": [
+                "finesse",
+                "light"
+            ],
+            "weight": {
+                "lbs": 3,
+                "kg": 1.5
+            }
+        }
+    },
+
+    {
+        "index": "shortsword",
+        "name": "Shortsword",
+        "cost": {
+            "value": 10,
+            "unit": "gp"
+        },
+        "category": "weapon",
+        "type": "martial melee",
+        "properties": {
+            "damage": {
+                "dice": "1d6",
+                "type": "piercing"
+            },
+            "characteristics": [
+                "finesse",
+                "light"
+            ],
+            "weight": {
+                "lbs": 2,
+                "kg": 1
+            }
+        }
+    },
+
+    {
+        "index": "trident",
+        "name": "Trident",
+        "cost": {
+            "value": 5,
+            "unit": "gp"
+        },
+        "category": "weapon",
+        "type": "martial melee",
+        "properties": {
+            "damage": {
+                "dice": "1d6",
+                "type": "piercing"
+            },
+            "characteristics": [
+                "thrown (range 20/60)",
+                "versatile (1d8)"
+            ],
+            "weight": {
+                "lbs": 4,
+                "kg": 2
+            }
+        }
+    },
+
+    {
+        "index": "war-pick",
+        "name": "War Pick",
+        "cost": {
+            "value": 5,
+            "unit": "gp"
+        },
+        "category": "weapon",
+        "type": "martial melee",
+        "properties": {
+            "damage": {
+                "dice": "1d8",
+                "type": "piercing"
+            },
+            "characteristics": [],
+            "weight": {
+                "lbs": 2,
+                "kg": 1
+            }
+        }
+    },
+
+    {
+        "index": "warhammer",
+        "name": "Warhammer",
+        "cost": {
+            "value": 15,
+            "unit": "gp"
+        },
+        "category": "weapon",
+        "type": "martial melee",
+        "properties": {
+            "damage": {
+                "dice": "1d8",
+                "type": "bludgeoning"
+            },
+            "characteristics": [
+                "versatile (1d10)"
+            ],
+            "weight": {
+                "lbs": 2,
+                "kg": 1
+            }
+        }
+    },
+
+    {
+        "index": "whip",
+        "name": "Whip",
+        "cost": {
+            "value": 2,
+            "unit": "gp"
+        },
+        "category": "weapon",
+        "type": "martial melee",
+        "properties": {
+            "damage": {
+                "dice": "1d4",
+                "type": "slashing"
+            },
+            "characteristics": [
+                "finesse",
+                "reach"
+            ],
+            "weight": {
+                "lbs": 3,
+                "kg": 1.5
+            }
+        }
+    },
+
+    {
+        "index": "blowgun",
+        "name": "Blowgun",
+        "cost": {
+            "value": 10,
+            "unit": "gp"
+        },
+        "category": "weapon",
+        "type": "martial ranged",
+        "properties": {
+            "damage": {
+                "dice": "1",
+                "type": "piercing"
+            },
+            "characteristics": [
+                "ammunition (range 25/100)",
+                "loading"
+            ],
+            "weight": {
+                "lbs": 1,
+                "kg": 0.5
+            }
+        }
+    },
+
+    {
+        "index": "crossbow-hand",
+        "name": "Crossbow, hand",
+        "cost": {
+            "value": 75,
+            "unit": "gp"
+        },
+        "category": "weapon",
+        "type": "martial ranged",
+        "properties": {
+            "damage": {
+                "dice": "1d6",
+                "type": "piercing"
+            },
+            "characteristics": [
+                "ammunition (range 30/120)",
+                "light",
+                "loading"
+            ],
+            "weight": {
+                "lbs": 3,
+                "kg": 1.5
+            }
+        }
+    },
+
+    {
+        "index": "crossbow-heavy",
+        "name": "Crossbow, heavy",
+        "cost": {
+            "value": 50,
+            "unit": "gp"
+        },
+        "category": "weapon",
+        "type": "martial ranged",
+        "properties": {
+            "damage": {
+                "dice": "1d10",
+                "type": "piercing"
+            },
+            "characteristics": [
+                "ammunition (range 100/400)",
+                "heavy",
+                "two-handed"
+            ],
+            "weight": {
+                "lbs": 18,
+                "kg": 4.5
+            }
+        }
+    },
+
+    {
+        "index": "longbow",
+        "name": "Longbow",
+        "cost": {
+            "value": 50,
+            "unit": "gp"
+        },
+        "category": "weapon",
+        "type": "martial ranged",
+        "properties": {
+            "damage": {
+                "dice": "1d8",
+                "type": "piercing"
+            },
+            "characteristics": [
+                "ammunition (range 150/600)",
+                "heavy",
+                "two-handed"
+            ],
+            "weight": {
+                "lbs": 2,
+                "kg": 1
+            }
+        }
+    },
+
+    {
+        "index": "net",
+        "name": "Net",
+        "cost": {
+            "value": 1,
+            "unit": "gp"
+        },
+        "category": "weapon",
+        "type": "martial ranged",
+        "properties": {
+            "damage": {
+                "dice": "0",
+                "type": "none"
+            },
+            "characteristics": [
+                "special",
+                "thrown (range 5/15)"
+            ],
+            "weight": {
+                "lbs": 3,
+                "kg": 1.5
+            }
+        }
+    },
+
+    {
+        "index": "abacus",
+        "name": "Abacus",
+        "cost": {
+            "value": 2,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 2,
+                "kg": 1
+            }
+        }
+    },
+
+    {
+        "index": "acid-vial",
+        "name": "Acid (vial)",
+        "cost": {
+            "value": 25,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 1,
+                "kg": 0.5
+            }
+        }
+    },
+
+    {
+        "index": "alchemist-fire-flask",
+        "name": "Alchemist's fire (flask)",
+        "cost": {
+            "value": 50,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 1,
+                "kg": 0.5
+            }
+        }
+    },
+
+    {
+        "index": "arrows",
+        "name": "Arrows (20)",
+        "cost": {
+            "value": 1,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "ammunition",
+        "properties": {
+            "weight": {
+                "lbs": 1,
+                "kg": 0.5
+            }
+        }
+    },
+
+    {
+        "index": "blowgun-needles",
+        "name": "Blowgun Needles (50)",
+        "cost": {
+            "value": 1,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "ammunition",
+        "properties": {
+            "weight": {
+                "lbs": 1,
+                "kg": 0.5
+            }
+        }
+    },
+
+    {
+        "index": "crossbow-bolts",
+        "name": "Crossbow bolts (20)",
+        "cost": {
+            "value": 1,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "ammunition",
+        "properties": {
+            "weight": {
+                "lbs": 0.075,
+                "kg": 0.75
+            }
+        }
+    },
+    
+    {
+        "index": "sling-bullets",
+        "name": "Sling bullets (20)",
+        "cost": {
+            "value": 4,
+            "unit": "cp"
+        },
+        "category": "adventuring gear",
+        "type": "ammunition",
+        "properties": {
+            "weight": {
+                "lbs": 0.075,
+                "kg": 0.75
+            }
+        }
+    },
+    
+    {
+        "index": "antitoxin-vial",
+        "name": "Antitoxin (vial)",
+        "cost": {
+            "value": 50,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 0,
+                "kg": 0
+            }
+        }
+    },
+    
+    {
+        "index": "crystal",
+        "name": "Crystal",
+        "cost": {
+            "value": 10,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "arcane focus",
+        "properties": {
+            "weight": {
+                "lbs": 1,
+                "kg": 0.5
+            }
+        }
+    },
+    
+    {
+        "index": "orb",
+        "name": "Orb",
+        "cost": {
+            "value": 20,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "arcane focus",
+        "properties": {
+            "weight": {
+                "lbs": 3,
+                "kg": 1.5
+            }
+        }
+    },
+    
+    {
+        "index": "rod",
+        "name": "Rod",
+        "cost": {
+            "value": 10,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "arcane focus",
+        "properties": {
+            "weight": {
+                "lbs": 2,
+                "kg": 1
+            }
+        }
+    },
+    
+    {
+        "index": "staff",
+        "name": "Staff",
+        "cost": {
+            "value": 5,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "arcane focus",
+        "properties": {
+            "weight": {
+                "lbs": 4,
+                "kg": 2
+            }
+        }
+    },
+    
+    {
+        "index": "wand",
+        "name": "Wand",
+        "cost": {
+            "value": 10,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "arcane focus",
+        "properties": {
+            "weight": {
+                "lbs": 1,
+                "kg": 0.5
+            }
+        }
+    },
+    
+    {
+        "index": "backpack",
+        "name": "Backpack",
+        "cost": {
+            "value": 2,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 5,
+                "kg": 2.5
+            }
+        }
+    },
+    
+    {
+        "index": "ball-bearings",
+        "name": "Ball bearings (bag of 1,000)",
+        "cost": {
+            "value": 1,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 2,
+                "kg": 1
+            }
+        }
+    },
+    
+    {
+        "index": "barrel",
+        "name": "Barrel",
+        "cost": {
+            "value": 2,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 70,
+                "kg": 35
+            }
+        }
+    },
+    
+    {
+        "index": "basket",
+        "name": "Basket",
+        "cost": {
+            "value": 4,
+            "unit": "sp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 2,
+                "kg": 1
+            }
+        }
+    },
+    
+    {
+        "index": "bedroll",
+        "name": "Bedroll",
+        "cost": {
+            "value": 1,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 7,
+                "kg": 3.5
+            }
+        }
+    },
+    
+    {
+        "index": "bell",
+        "name": "Bell",
+        "cost": {
+            "value": 1,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 0,
+                "kg": 0
+            }
+        }
+    },
+    
+    {
+        "index": "blanket",
+        "name": "Blanket",
+        "cost": {
+            "value": 5,
+            "unit": "sp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 3,
+                "kg": 1.5
+            }
+        }
+    },
+    
+    {
+        "index": "block-and-tackle",
+        "name": "Block and tackle",
+        "cost": {
+            "value": 1,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 5,
+                "kg": 2.5
+            }
+        }
+    },
+    
+    {
+        "index": "book",
+        "name": "Book",
+        "cost": {
+            "value": 25,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 5,
+                "kg": 2.5
+            }
+        }
+    },
+    
+    {
+        "index": "bottle-glass",
+        "name": "Bottle, glass",
+        "cost": {
+            "value": 2,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 2,
+                "kg": 1
+            }
+        }
+    },
+    
+    {
+        "index": "bucket",
+        "name": "Bucket",
+        "cost": {
+            "value": 5,
+            "unit": "cp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 2,
+                "kg": 1
+            }
+        }
+    },
+    
+    {
+        "index": "caltrops",
+        "name": "Caltrops (bag of 20)",
+        "cost": {
+            "value": 1,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 2,
+                "kg": 1
+            }
+        }
+    },
+    
+    {
+        "index": "candle",
+        "name": "Candle",
+        "cost": {
+            "value": 1,
+            "unit": "cp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 0,
+                "kg": 0
+            }
+        }
+    },
+    
+    {
+        "index": "case-crossbow-bolt",
+        "name": "Case, crossbow bolt",
+        "cost": {
+            "value": 1,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 1,
+                "kg": 0.5
+            }
+        }
+    },
+    
+    {
+        "index": "case-map-or-scroll",
+        "name": "Case, map or scroll",
+        "cost": {
+            "value": 1,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 1,
+                "kg": 0.5
+            }
+        }
+    },
+    
+    {
+        "index": "chain",
+        "name": "Chain (10 feet)",
+        "cost": {
+            "value": 5,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 10,
+                "kg": 12.5
+            }
+        }
+    },
+    
+    {
+        "index": "chalk",
+        "name": "Chalk (1 piece)",
+        "cost": {
+            "value": 1,
+            "unit": "cp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 0,
+                "kg": 0
+            }
+        }
+    },
+    
+    {
+        "index": "chest",
+        "name": "Chest",
+        "cost": {
+            "value": 5,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 25,
+                "kg": 12.5
+            }
+        }
+    },
+    
+    {
+        "index": "clothes-common",
+        "name": "Clothes, common",
+        "cost": {
+            "value": 5,
+            "unit": "sp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 3,
+                "kg": 1.5
+            }
+        }
+    },
+    
+    {
+        "index": "clothes-costume",
+        "name": "Clothes, costume",
+        "cost": {
+            "value": 5,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 4,
+                "kg": 2
+            }
+        }
+    },
+    
+    {
+        "index": "clothes-fine",
+        "name": "Clothes, fine",
+        "cost": {
+            "value": 15,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 6,
+                "kg": 3
+            }
+        }
+    },
+    
+    {
+        "index": "clothes-traveler",
+        "name": "Clothes, traveler's",
+        "cost": {
+            "value": 2,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 4,
+                "kg": 2
+            }
+        }
+    },
+    
+    {
+        "index": "component-pouch",
+        "name": "Component pouch",
+        "cost": {
+            "value": 25,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 2,
+                "kg": 1
+            }
+        }
+    },
+    
+    {
+        "index": "crowbar",
+        "name": "Crowbar",
+        "cost": {
+            "value": 2,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 5,
+                "kg": 2.5
+            }
+        }
+    },
+    
+    {
+        "index": "sprig-of-mistletoe",
+        "name": "Sprig of mistletoe",
+        "cost": {
+            "value": 1,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "druidic focus",
+        "properties": {
+            "weight": {
+                "lbs": 0,
+                "kg": 0
+            }
+        }
+    },
+    
+    {
+        "index": "totem",
+        "name": "Totem",
+        "cost": {
+            "value": 1,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "druidic focus",
+        "properties": {
+            "weight": {
+                "lbs": 0,
+                "kg": 0
+            }
+        }
+    },
+    
+    {
+        "index": "wooden-staff",
+        "name": "Wooden staff",
+        "cost": {
+            "value": 5,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "druidic focus",
+        "properties": {
+            "weight": {
+                "lbs": 4,
+                "kg": 2
+            }
+        }
+    },
+    
+    {
+        "index": "yew-wand",
+        "name": "Yew wand",
+        "cost": {
+            "value": 10,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "druidic focus",
+        "properties": {
+            "weight": {
+                "lbs": 1,
+                "kg": 0.5
+            }
+        }
+    },
+    
+    {
+        "index": "fishing-tackle",
+        "name": "Fishing tackle",
+        "cost": {
+            "value": 1,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 4,
+                "kg": 2
+            }
+        }
+    },
+    
+    {
+        "index": "flask-or-tankard",
+        "name": "Flask or Tankard",
+        "cost": {
+            "value": 2,
+            "unit": "cp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 1,
+                "kg": 0.5
+            }
+        }
+    },
+    
+    {
+        "index": "grappling-hook",
+        "name": "Grappling hook",
+        "cost": {
+            "value": 2,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 4,
+                "kg": 2
+            }
+        }
+    },
+    
+    {
+        "index": "hammer",
+        "name": "Hammer",
+        "cost": {
+            "value": 1,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 3,
+                "kg": 1.5
+            }
+        }
+    },
+    
+    {
+        "index": "hammer-sledge",
+        "name": "Hammer, sledge",
+        "cost": {
+            "value": 2,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 10,
+                "kg": 5
+            }
+        }
+    },
+    
+    {
+        "index": "amulet",
+        "name": "Amulet",
+        "cost": {
+            "value": 5,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "holy symbol",
+        "properties": {
+            "weight": {
+                "lbs": 1,
+                "kg": 0.5
+            }
+        }
+    },
+    
+    {
+        "index": "emblem",
+        "name": "Emblem",
+        "cost": {
+            "value": 5,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "holy symbol",
+        "properties": {
+            "weight": {
+                "lbs": 0,
+                "kg": 0
+            }
+        }
+    },
+    
+    {
+        "index": "reliquary",
+        "name": "Reliquary",
+        "cost": {
+            "value": 5,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "holy symbol",
+        "properties": {
+            "weight": {
+                "lbs": 2,
+                "kg": 1
+            }
+        }
+    },
+    
+    {
+        "index": "holy-water-flask",
+        "name": "Holy Water (flask)",
+        "cost": {
+            "value": 25,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 1,
+                "kg": 0.5
+            }
+        }
+    },
+    
+    {
+        "index": "hourglass",
+        "name": "Hourglass",
+        "cost": {
+            "value": 25,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 1,
+                "kg": 0.5
+            }
+        }
+    },
+    
+    {
+        "index": "hunting-trap",
+        "name": "Hunting trap",
+        "cost": {
+            "value": 5,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 25,
+                "kg": 12.5
+            }
+        }
+    },
+    
+    {
+        "index": "ink-bottle",
+        "name": "Ink (1 ounce bottle)",
+        "cost": {
+            "value": 10,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 0,
+                "kg": 0
+            }
+        }
+    },
+    
+    {
+        "index": "ink-pen",
+        "name": "Ink pen",
+        "cost": {
+            "value": 2,
+            "unit": "cp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 0,
+                "kg": 0
+            }
+        }
+    },
+    
+    {
+        "index": "jug-or-pitcher",
+        "name": "Jug or Pitcher",
+        "cost": {
+            "value": 2,
+            "unit": "cp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 4,
+                "kg": 2
+            }
+        }
+    },
+    
+    {
+        "index": "kit-climber",
+        "name": "Kit, climber's",
+        "cost": {
+            "value": 25,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 12,
+                "kg": 6
+            }
+        }
+    },
+    
+    {
+        "index": "kit-disguise",
+        "name": "Kit, disguise",
+        "cost": {
+            "value": 25,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 3,
+                "kg": 1.5
+            }
+        }
+    },
+    
+    {
+        "index": "kit-forgery",
+        "name": "Kit, forgery",
+        "cost": {
+            "value": 15,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 5,
+                "kg": 2.5
+            }
+        }
+    },
+    
+    {
+        "index": "kit-herbalism",
+        "name": "Kit, herbalism",
+        "cost": {
+            "value": 5,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 3,
+                "kg": 1.5
+            }
+        }
+    },
+    
+    {
+        "index": "kit-healer",
+        "name": "Kit, healer's",
+        "cost": {
+            "value": 5,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 3,
+                "kg": 1.5
+            }
+        }
+    },
+    
+    {
+        "index": "kit-mess",
+        "name": "Kit, mess",
+        "cost": {
+            "value": 2,
+            "unit": "sp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 1,
+                "kg": 0.5
+            }
+        }
+    },
+    
+    {
+        "index": "kit-poisoner",
+        "name": "Kit, poisoner's",
+        "cost": {
+            "value": 50,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 2,
+                "kg": 1
+            }
+        }
+    },
+    
+    {
+        "index": "ladder",
+        "name": "Ladder (10-foot)",
+        "cost": {
+            "value": 1,
+            "unit": "sp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 25,
+                "kg": 12.5
+            }
+        }
+    },
+    
+    {
+        "index": "lamp",
+        "name": "Lamp",
+        "cost": {
+            "value": 5,
+            "unit": "sp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 1,
+                "kg": 0.5
+            }
+        }
+    },
+    
+    {
+        "index": "lantern-bullseye",
+        "name": "Lantern, bullseye",
+        "cost": {
+            "value": 10,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 2,
+                "kg": 1
+            }
+        }
+    },
+    
+    {
+        "index": "lantern-hooded",
+        "name": "Lantern, hooded",
+        "cost": {
+            "value": 5,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 2,
+                "kg": 1
+            }
+        }
+    },
+    
+    {
+        "index": "lock",
+        "name": "Lock",
+        "cost": {
+            "value": 10,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 1,
+                "kg": 0.5
+            }
+        }
+    },
+    
+    {
+        "index": "magnifying-glass",
+        "name": "Magnifying glass",
+        "cost": {
+            "value": 100,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 0,
+                "kg": 0
+            }
+        }
+    },
+    
+    {
+        "index": "manacles",
+        "name": "Manacles",
+        "cost": {
+            "value": 2,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 6,
+                "kg": 2
+            }
+        }
+    },
+    
+    {
+        "index": "mirror-steel",
+        "name": "Mirror, steel",
+        "cost": {
+            "value": 5,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 0.5,
+                "kg": 0.25
+            }
+        }
+    },
+    
+    {
+        "index": "oil-flask",
+        "name": "Oil (flask)",
+        "cost": {
+            "value": 1,
+            "unit": "sp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 1,
+                "kg": 0.5
+            }
+        }
+    },
+    
+    {
+        "index": "paper",
+        "name": "Paper (one sheet)",
+        "cost": {
+            "value": 2,
+            "unit": "sp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 0,
+                "kg": 0
+            }
+        }
+    },
+    
+    {
+        "index": "parchment",
+        "name": "Parchment (one sheet)",
+        "cost": {
+            "value": 1,
+            "unit": "sp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 0,
+                "kg": 0
+            }
+        }
+    },
+    
+    {
+        "index": "perfume-vial",
+        "name": "Perfume (vial)",
+        "cost": {
+            "value": 5,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 0,
+                "kg": 0
+            }
+        }
+    },
+    
+    {
+        "index": "pick-miner",
+        "name": "Pick, miner's",
+        "cost": {
+            "value": 2,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 10,
+                "kg": 5
+            }
+        }
+    },
+    
+    {
+        "index": "piton",
+        "name": "Piton",
+        "cost": {
+            "value": 5,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 0.25,
+                "kg": 0
+            }
+        }
+    },
+    
+    {
+        "index": "poison-basic",
+        "name": "Poison, basic (vial)",
+        "cost": {
+            "value": 100,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 0,
+                "kg": 0
+            }
+        }
+    },
+    
+    {
+        "index": "pole",
+        "name": "Pole (10-foot)",
+        "cost": {
+            "value": 5,
+            "unit": "cp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 7,
+                "kg": 3.5
+            }
+        }
+    },
+    
+    {
+        "index": "pot-iron",
+        "name": "Pot, iron",
+        "cost": {
+            "value": 2,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 10,
+                "kg": 5
+            }
+        }
+    },
+    
+    {
+        "index": "potion-of-healing",
+        "name": "Potion of Healing",
+        "cost": {
+            "value": 50,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 0.5,
+                "kg": 0.25
+            }
+        }
+    },
+    
+    {
+        "index": "pouch",
+        "name": "Pouch",
+        "cost": {
+            "value": 5,
+            "unit": "sp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 1,
+                "kg": 0.5
+            }
+        }
+    },
+    
+    {
+        "index": "quiver",
+        "name": "Quiver",
+        "cost": {
+            "value": 1,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 1,
+                "kg": 0.5
+            }
+        }
+    },
+    
+    {
+        "index": "ram-portable",
+        "name": "Ram, portable",
+        "cost": {
+            "value": 4,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 35,
+                "kg": 17.5
+            }
+        }
+    },
+    
+    {
+        "index": "rations",
+        "name": "Rations (1 day)",
+        "cost": {
+            "value": 5,
+            "unit": "sp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 2,
+                "kg": 1
+            }
+        }
+    },
+    
+    {
+        "index": "robes",
+        "name": "Robes",
+        "cost": {
+            "value": 1,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 4,
+                "kg": 2
+            }
+        }
+    },
+    
+    {
+        "index": "rope-hempen",
+        "name": "Rope, hempen (50 feet)",
+        "cost": {
+            "value": 1,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 10,
+                "kg": 5
+            }
+        }
+    },
+    
+    {
+        "index": "rope-silk",
+        "name": "Rope, silk (50 feet)",
+        "cost": {
+            "value": 10,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 5,
+                "kg": 2.5
+            }
+        }
+    },
+    
+    {
+        "index": "sack",
+        "name": "Sack",
+        "cost": {
+            "value": 1,
+            "unit": "cp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 0.5,
+                "kg": 0.25
+            }
+        }
+    },
+    
+    {
+        "index": "scale-merchant",
+        "name": "Scale, merchant's",
+        "cost": {
+            "value": 5,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 3,
+                "kg": 1.5
+            }
+        }
+    },
+    
+    {
+        "index": "sealing-wax",
+        "name": "Sealing wax",
+        "cost": {
+            "value": 5,
+            "unit": "sp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 0,
+                "kg": 0
+            }
+        }
+    },
+    
+    {
+        "index": "shovel",
+        "name": "Shovel",
+        "cost": {
+            "value": 2,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 5,
+                "kg": 2.5
+            }
+        }
+    },
+    
+    {
+        "index": "signal-whistle",
+        "name": "Signal whistle",
+        "cost": {
+            "value": 5,
+            "unit": "cp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 0,
+                "kg": 0
+            }
+        }
+    },
+    
+    {
+        "index": "signet-ring",
+        "name": "Signet ring",
+        "cost": {
+            "value": 5,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 0,
+                "kg": 0
+            }
+        }
+    },
+    
+    {
+        "index": "soap",
+        "name": "Soap",
+        "cost": {
+            "value": 2,
+            "unit": "cp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 0,
+                "kg": 0
+            }
+        }
+    },
+    
+    {
+        "index": "spellbook",
+        "name": "Spellbook",
+        "cost": {
+            "value": 50,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 3,
+                "kg": 1.5
+            }
+        }
+    },
+    
+    {
+        "index": "spikes-iron",
+        "name": "Spikes, iron (10)",
+        "cost": {
+            "value": 1,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 5,
+                "kg": 2.5
+            }
+        }
+    },
+    
+    {
+        "index": "spyglass",
+        "name": "Spyglass",
+        "cost": {
+            "value": 1000,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 1,
+                "kg": 0.5
+            }
+        }
+    },
+    
+    {
+        "index": "tent-two-person",
+        "name": "Tent, two person",
+        "cost": {
+            "value": 2,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 20,
+                "kg": 10
+            }
+        }
+    },
+    
+    {
+        "index": "tinderbox",
+        "name": "Tinderbox",
+        "cost": {
+            "value": 5,
+            "unit": "sp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 1,
+                "kg": 0.5
+            }
+        }
+    },
+    
+    {
+        "index": "torch",
+        "name": "Torch",
+        "cost": {
+            "value": 1,
+            "unit": "cp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 1,
+                "kg": 0.5
+            }
+        }
+    },
+    
+    {
+        "index": "vial",
+        "name": "Vial",
+        "cost": {
+            "value": 1,
+            "unit": "gp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 0,
+                "kg": 0
+            }
+        }
+    },
+    
+    {
+        "index": "waterskin",
+        "name": "Waterskin",
+        "cost": {
+            "value": 2,
+            "unit": "sp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 5,
+                "kg": 2.5
+            }
+        }
+    },
+    
+    {
+        "index": "whetstone",
+        "name": "Whetstone",
+        "cost": {
+            "value": 1,
+            "unit": "cp"
+        },
+        "category": "adventuring gear",
+        "type": "general",
+        "properties": {
+            "weight": {
+                "lbs": 1,
+                "kg": 0
+            }
+        }
+    }
+
+]

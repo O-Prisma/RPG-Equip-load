@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
-import { EquipmentRow } from '../components/EquipmentRow/Index';
-import { InventoryEquipRow } from '../components/InventoryEquipRow/Index';
+import EquipmentRow from '../components/EquipmentRow/Index';
+import InventoryEquipRow from '../components/InventoryEquipRow/Index';
 
 import { Container } from './styles';
 

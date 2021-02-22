@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Just a easy way to calculate your character equip load in your RPG game",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "build": "next build",
+    "vercel-build": "vercel build"
   },
   "main": "index.js",
   "author": "O Prisma",

@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 import { Container } from './styles';
 
-export function Header({ children }) {
+export default function Header({ children }) {
  
     return (
 

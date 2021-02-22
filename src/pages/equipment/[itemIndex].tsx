@@ -5,7 +5,7 @@ import React from 'react';
 import equipments from '../../../public/assets/json/equipmentsDnD.json';
 import translations from '../../../public/assets/json/translationEquipmentsDnD.json';
 
-import { ItemContainer, ItemInfos } from './styles';
+import ItemContainer, { ItemInfos } from './styles';
 
 function Equipment({ itemIndex, trans }) {
 

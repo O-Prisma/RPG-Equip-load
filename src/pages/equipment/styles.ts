@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const ItemContainer = styled.div`
+const ItemContainer = styled.div`
     
 
     div.main {
@@ -117,3 +117,5 @@ export const ItemInfos = styled.div`
     }
 
 `;
+
+export default ItemContainer;

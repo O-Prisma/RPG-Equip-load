@@ -3,7 +3,7 @@ import { useState } from 'react';
 import EquipmentRow from '../components/EquipmentRow/Index';
 import InventoryEquipRow from '../components/InventoryEquipRow/Index';
 
-import { Container } from './styles';
+import Container from './styles';
 
 import equipments from '../../public/assets/json/equipmentsDnD.json';
 import trans from '../../public/assets/json/translationEquipmentsDnD.json';

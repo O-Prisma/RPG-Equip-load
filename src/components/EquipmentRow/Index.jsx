@@ -5,21 +5,7 @@ import trans from '../../../public/assets/json/translationEquipmentsDnD.json';
 
 import Item from './styles';
 
-interface Equipment {
-
-    index: string;
-    name: string;
-    cost: { value: number, unit: string };
-    category: string;
-    type: string;
-    weight: { lbs: number, kg: number };
-    isListed: boolean;
-    inventoryFunction?: Function;
-    inventory?: Array<Equipment>
-
-}
-
-export default function EquipmentRow(equip: Equipment) {
+export default function EquipmentRow(equip) {
 
     const { index, name, cost, category, type, weight, isListed, inventoryFunction, inventory } = equip;
     
@@ -50,7 +36,7 @@ export default function EquipmentRow(equip: Equipment) {
 
                 <button className="add-equipment" onClick={function() {
 
-                    let newValue: any = inventory;
+                    let newValue = inventory;
 
                     let equipFiltered = {
                         index,

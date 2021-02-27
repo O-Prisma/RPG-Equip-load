@@ -4,18 +4,7 @@ import trans from '../../../public/assets/json/translationEquipmentsDnD.json';
 
 import InventoryContainer from './styles';
 
-export interface Equipment {
-
-    index: string;
-    name: string;
-    cost: { value: number, unit: string };
-    weight: { lbs: number, kg: number };
-    inventoryFunction?: Function;
-    inventory?: Array<Equipment>
-
-}
-
-export default function InventoryEquipRow(equip: Equipment) {
+export default function InventoryEquipRow(equip) {
 
     const { index, name, cost, weight, inventoryFunction, inventory } = equip;
 
@@ -42,7 +31,7 @@ export default function InventoryEquipRow(equip: Equipment) {
 
                 <button className="remove-equipment" onClick={function() {
 
-                    let newValue: any = inventory;
+                    let newValue = inventory;
                     
                     let equipIndex = inventory.findIndex(equipment => {
                     

@@ -1,91 +1,53 @@
-import Link from "next/link";
-import Router from "next/router";
+import Link from 'next/link';
 
-import trans from '../../../public/assets/json/translationEquipmentsDnD.json';
-
-import Item from './styles';
-
-export default function EquipmentRow(equip) {
-
-    const { index, name, cost, category, type, weight, isListed, inventoryFunction, inventory } = equip;
-    
-    function capitalize(string) {
-
-        let str = String(string);
-
-        return str.charAt(0).toUpperCase() + str.substring(1, str.length);
-
-    }
+export default function EquipmentRow(
+    { index, name, cost: { quantity, unit }, category, type, weight, children }
+) {
 
     return (
+        <div className="item">
 
-        <Item>
+            <Link href={`/equipments/${index}`}>
 
-            <Link href={`/equipment/${encodeURIComponent(index)}`}>
-                <h2 className="name">{capitalize(trans[name.toLowerCase()])}</h2>
+                <h2 className="item-name">{name}</h2>
+
             </Link>
 
-            <div className="infos">
-                <div className="cost"><div className="label">Custo:</div> {cost.value + ' ' + trans[cost.unit]}</div>
-                <div className="category"><div className="label">Categoria:</div> {capitalize(trans[category.toLowerCase()])}</div>
-                <div className="type"><div className="label">Tipo:</div> {capitalize(trans[type.toLowerCase()])}</div>
-                <div className="weight"><div className="label">Peso:</div> {weight['kg'] + ' kg'}</div>
-            </div>
+            <div className="item-properties">
 
-            <div className="options">
+                <div className="cost-property property">
 
-                <button className="add-equipment" onClick={function() {
+                    <p className="label">Custo: </p>
+                    <p className="info">{`${quantity} ${unit}`}</p>
 
-                    let newValue = inventory;
+                </div>
 
-                    let equipFiltered = {
-                        index,
-                        name,
-                        cost,
-                        category,
-                        type,
-                        weight
-                    };
+                <div className="category-property property">
 
-                    if (isListed) {
+                    <p className="label">Categoria: </p>
+                    <p className="info">{category}</p>
 
-                        let equipIndex = inventory.findIndex(equipment => {
-                        
-                            return index == equipment.index;
+                </div>
 
-                        });
-                        
-                        if (equipIndex != -1) {
-                            
-                            newValue.splice(equipIndex, 1);
-                            
-                            inventoryFunction(newValue);
-                        }
-                        
-                    } else {
-                        
-                        newValue.push(equipFiltered);
+                <div className="type-property property">
 
-                        inventoryFunction(newValue);
-                        
-                    }
-                    
-                    window.localStorage.setItem('inventory', JSON.stringify(newValue));
+                    <p className="label">Tipo: </p>
+                    <p className="info">{type}</p>
 
-                    Router.reload();
+                </div>
 
-                }}>
-                    {
-                        (isListed) ?
-                        (<div >- <div className="text">Remover item</div></div>) :
-                        (<div >+ <div className="text">Adicionar item</div></div>)
-                    }
-                </button>
+                <div className="weight-property property">
+
+                    <p className="label">Peso:</p>
+                    <p className="info">{weight}</p>
+
+                </div>
 
             </div>
 
-        </Item>
+            {children}
 
+        </div>
     )
 
 }

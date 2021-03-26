@@ -2,220 +2,337 @@ import styled from 'styled-components';
 
 const Container = styled.div`
 
+    /**#800000 */
+
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-    ul.main {
+    header.header {
 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        flex-wrap: wrap;
-
-        gap: 20px;
-
-    }
-
-    .header {
-
-        display: flex;
         width: 100%;
-        position: static;
-        justify-content: center;
-        align-items: center;
-        background: #26282a;
         padding: 20px;
-
-    }
-
-    .header .search-bar {
-
         display: flex;
-        align-items: center;
-        justify-content: center;
-
-        border-bottom: 2px solid gray;
-
-    }
-
-    .header .search-bar input {
-
-        border: none;
-        background: none;
-        padding: 5px;
-        color: #FFF;
-        width: 350px;
-        outline: none;
-
-    }
-
-    .header .search-bar button {
-
-        border: none;
-        background: none;
-
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: #FFF;
-
-        outline: none;
-
-    }
-
-    .inventory-container {
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
         flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        background-color: #090809;
 
     }
 
-    button.minify-inventory {
+    .search-bar-container {
 
-        width: 90%;
-        padding: 10px;
-        background: #26282a;
-        color: #FFF;
-        font-weight: 700;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #979AA4;
+        border-bottom: 2px solid #979AA4;
+        padding: 5px;
 
-        border-radius: 0 0 8px 8px;
+    }
 
+    .search-bar-container .search-bar {
+
+        background: none;
         border: none;
+        color: #FFF;
         outline: none;
-        margin-bottom: 20px;
+        width: 250px;
+
+    }
+
+    .search-bar-container .search-bar::placeholder {
+
+        color: #979AA4
+
+    }
+
+    .search-bar-container .icon {
 
         cursor: pointer;
 
-        transition: 0.4s;
+    }
+
+    .main {
+
+        width: 100%;
+        height: 100%;
 
     }
 
-    button.minify-inventory:hover {
+    .top-main {
 
-        background: #090809;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    
+    .top-main .info-container {
+        
+        padding: 20px;
+        background-color: #26282A;
+        color: #FFF;
+        width: 100%;
+        
+    }
+    
+    .top-main .inventory-container {
+        
+        width: 100%;
+        display: flex;
+        flex-direction: column
+        
+    }
+    
+    .top-main .inventory-container button.minimize-btn {
+        
+        width: 100%;
+        text-align: center;
+        padding: 5px;
+        border: none;
+        font-weight: 700;
+        background: #800000;
+        color: #FFF;
+        font-size: 20px;
+        outline: none;
+        transition: background-color 0.4s ease-in-out;
+        margin-bottom: 20px;
+        
+        cursor: pointer;
+        
+    }
+    
+    .top-main .inventory-container button.minimize-btn:hover {
 
-        transition: 0.4s;
+        background: #9C0E0E;
 
     }
 
-    .main-container.minify {
+    .top-main .inventory-container .inventory-list {
+        
+        margin-bottom: 20px;
+        background: #FFF;
+        height: auto;
+        padding: 20px;
+        border: 1px solid #979AA4;
+        border-radius: 8px;
+        width: 80%;
+        align-self: center;
+        display: flex;
+        flex-flow: row nowrap;
+        flex-grow: 1;
+        gap: 10px;
+        white-space: nowrap;
+        overflow: auto;
+        overflow-y: hidden;
+        
+    }
 
-        height: 0;
+    .top-main .inventory-container .inventory-list::-webkit-scrollbar {
+
+        width: 1em;
+
+    }
+
+    .top-main .inventory-container .inventory-list::-webkit-scrollbar-track {
+
+        background: #979AA4;
+        border-radius: 0 0 8px 8px;
+
+    }
+
+    .top-main .inventory-container .inventory-list::-webkit-scrollbar-thumb {
+
+        background-color: #800000;
+        border-radius: 0 0 8px 8px;
+
+    }
+
+    .top-main .inventory-container .inventory-list.minimized {
+
         display: none;
 
     }
 
-    .main-container {
+    .top-main .inventory-container .inventory-list .item {
 
-        display: flex;
-        padding: 20px;
-        background: white;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-
-        border-radius: 8px;
-
-        flex-grow: 1;
-        overflow-x: scroll;
-
-        width: 90%;
+        background: #EEEE;
 
     }
-    
-    header.inventory-header{
 
-        width: 100%;
+    .inventory-info {
 
+        align-self: center;
+        justify-self: center;
+        margin: auto;
+        text-align: center;
+
+    }
+
+    .item {
+
+        background-color: #FFF;
+        padding: 20px;
+        min-width: 350px;
+        max-width: 350px;
+        min-height: 300px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-
-        margin-bottom: 20px;
+        border-radius: 8px;
 
     }
 
-    button.return-to-top {
+    .item .property {
+
+        display: flex;
+        gap: 5px;
+        margin: 10px 0;
+
+    }
+
+    .item .property .label {
+
+        font-weight: 700;
+
+    }
+
+    .item .item-name {
+
+        background-color: #800000;
+        display: block;
+        padding: 10px;
+        width: 90%;
+        color: #FFF;
+        text-align: center;
+        border-radius: 8px;
+        white-space: normal;
+        overflow: hidden;
+
+        transition: background-color 0.4s;
+
+        cursor: pointer;
+
+    }
+
+    .item .item-name:hover {
+
+        background-color: #9C0E0E;
+
+    }
+
+    .item .toggle-equip-inventory {
+
+        background-color: #800000;
+        border: none;
+        font-weight: 700;
+        display: block;
+        padding: 10px;
+        width: 70%;
+        color: #FFF;
+        text-align: center;
+        border-radius: 8px;
+        outline: none;
+
+        transition: background-color 0.4s;
+
+        cursor: pointer;
+
+    }
+
+    .item .toggle-equip-inventory:hover {
+
+        background-color: #FFF;
+        color: #800000;
+
+    }
+
+    .item-list {
+
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin: 0 50px;
+
+    }
+
+    .scroll-top {
 
         position: fixed;
         bottom: 50px;
         right: 50px;
-        padding: 20px;
+        width: 100px;
+        height: 100px;
         border-radius: 50%;
-        border: none;
-        background: #800000;
-        color: #FFF;
-
+        font-size: 3em;
+        text-align: center;
         font-weight: 700;
+        background-color: #800000;
+        color: #FFF;
+        border: none;
+        outline: none;
 
         cursor: pointer;
 
-        transition: 0.4s;
-
-        outline: none;
+        transition: background-color 0.4s;
 
     }
 
-    header.inventory-header .total {
+    .scroll-top:hover {
 
-        background: #800000;
-        width: 100%;
-        padding: 20px;
-        text-align: center;
-        color: #FFF;
+        background-color: #9C0E0E;
 
     }
 
-    header.inventory-header .total p {
+    h4.info {
 
-        font-weight: 700;
+        color: #979AA4;
 
     }
 
-    button.return-to-top:hover {
+    h4.info a {
 
-        background: #822222;
+        text-decoration: none;
+        color: #9C0E0E;
+        transition: all 0.4s;
 
-        transition: 0.4s;
+    }
+
+    h4.info a:hover {
+
+        color: #9C4E4E;
+        text-decoration: underline;
 
     }
 
     @media screen and (max-width: 700px) {
 
-        .header .search-bar input {
+        .scroll-top {
 
-            width: 150px;
-
-        }
-
-        .header {
-
-            align-self: center;
-            justify-self: center;
+            bottom: 20px;
+            right: 20px;
+            width: 50px;
+            height: 50px;
+            font-size: 1em;
 
         }
 
-        button.return-to-top {
+        .inventory-info {
 
-            padding: 10px;
-            bottom: 25px;
-            right: 25px;
-
-        }
-
-        .main-container {
-
-            justify-content: flex-start;
+            font-size: 65%;
 
         }
 
     }
 
-`
+`;
 
 export default Container;

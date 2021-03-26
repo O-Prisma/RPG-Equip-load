@@ -3,7 +3,11 @@ import Head from 'next/head';
 
 import Container from './styles';
 
+import checkEquipmentWeight from '../utils/checkEquipmentWeight.js';
+import reduceWeigths from '../utils/reduceWeights.js';
+
 import EquipmentRow from '../components/EquipmentRow/Index.jsx';
+
 import translations from '../assets/json/translations.json';
 
 export default function Index({ equips }) {
@@ -15,32 +19,6 @@ export default function Index({ equips }) {
         inventory.map(getEquipmentsRow)
     );
     const [equipsRows, setEquipsRows] = useState(equips.map(getEquipmentsRow));
-
-    function reduceWeigths(acc, actualEquip) {
-
-        if (actualEquip?.weight) {
-
-            return acc + (actualEquip.weight / 2)
-
-        }
-
-        if (actualEquip?.contents) {
-
-            return (actualEquip.contents.reduce((accumulator, content) => {
-
-                let itemReference = equips.filter(
-                    item => (item.index == content.item.index)
-                )[0];
-                
-                return accumulator + ((itemReference.weight / 2) * content.quantity);
-
-            }, 0))
-
-        }
-
-        return acc
-
-    }
 
     useEffect(() => {
 
@@ -80,26 +58,6 @@ export default function Index({ equips }) {
     function checkEquipmentType(equip) {
 
         return Object.entries(equip)[3][1].name || Object.entries(equip)[3][1];
-
-    }
-
-    function checkEquipmentWeight(equip) {
-
-        return (
-            (!equip.contents) ? 
-            (equip?.weight ? `${
-                (equip.weight / 2).toString().split('.').join(',')
-            } kg` : '~ Não possuí peso ~') :
-            (`${equip.contents.reduce((acc, content) => {
-                    
-                let itemReference = equips.filter(
-                    item => (item.index == content.item.index)
-                )[0];
-                
-                return acc + ((itemReference.weight / 2) * content.quantity);
-                
-            }, 0).toString().split('.').join(',')} kg`)
-        )
 
     }
     

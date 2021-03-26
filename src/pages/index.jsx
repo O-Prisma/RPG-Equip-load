@@ -3,7 +3,7 @@ import Head from 'next/head';
 
 import Container from './styles';
 
-import EquipmentRow from '../components/EquipmentRow/index';
+import EquipmentRow from '../components/EquipmentRow/index.jsx';
 import translations from '../assets/json/translations.json';
 
 export default function Index({ equips }) {

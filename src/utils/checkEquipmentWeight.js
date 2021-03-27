@@ -1,4 +1,4 @@
-export default function checkEquipmentWeight(equip) {
+export default function checkEquipmentWeight(equip, equips) {
     
     if (equip?.weight) {
         return `${

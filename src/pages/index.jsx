@@ -5,6 +5,9 @@ import Container from './styles';
 
 import checkEquipmentWeight from '../utils/checkEquipmentWeight.js';
 import reduceWeigths from '../utils/reduceWeights.js';
+import checkEquipmentType from '../utils/checkEquipmentType.js';
+import minimizeInventory from '../utils/minimizeInventory.js';
+import searchItem from '../utils/searchItem.js';
 
 import EquipmentRow from '../components/EquipmentRow/Index.jsx';
 
@@ -54,12 +57,6 @@ export default function Index({ equips }) {
         setEquipsRows(equips.map(getEquipmentsRow));
         
     }, [inventory]);
-
-    function checkEquipmentType(equip) {
-
-        return Object.entries(equip)[3][1].name || Object.entries(equip)[3][1];
-
-    }
     
     function getEquipmentsRow(equip) {
         
@@ -72,7 +69,7 @@ export default function Index({ equips }) {
                 cost={{quantity: equip.cost.quantity, unit: translations[equip.cost.unit]}}
                 category={translations[equip['equipment_category'].name]}
                 type={translations[checkEquipmentType(equip)]}
-                weight={checkEquipmentWeight(equip)}
+                weight={checkEquipmentWeight(equip, equips)}
             >
 
                 <button className="toggle-equip-inventory" onClick={function() {
@@ -118,41 +115,6 @@ export default function Index({ equips }) {
         )
         
     }
-
-    function searchItem(e) {
-
-        e.preventDefault();
-
-        if (e.target.value.length > 0) {
-
-            const value = e.target.value.toLowerCase();
-
-            const filteredEquipArrays = equips.filter(({index, name}) => {
-                
-                return (
-                    (name.toLowerCase().includes(value)) ||
-                    (index.toLowerCase().includes(value)) ||
-                    (translations[name].toLowerCase().includes(value)) ||
-                    (translations[index].toLowerCase().includes(value))
-                );
-                
-            });
-
-            setEquipsRows(filteredEquipArrays.map(getEquipmentsRow));
-        
-        } else {
-
-            setEquipsRows(equips.map(getEquipmentsRow));
-
-        }
-
-    }
-
-    function minimizeInventory() {
-
-        document.querySelector('.inventory-list').classList.toggle('minimized');
-
-    }
     
     return (
         
@@ -174,7 +136,15 @@ export default function Index({ equips }) {
                         type="text"
                         className="search-bar"
                         placeholder="Pesquise um item!"
-                        onChange={searchItem}
+                        onChange={(e) => {
+                            searchItem(
+                                e, 
+                                equips, 
+                                translations, 
+                                setEquipsRows, 
+                                getEquipmentsRow
+                            )
+                        }}
                     />
 
                     <p className="icon">

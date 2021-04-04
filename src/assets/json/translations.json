@@ -1,502 +1,2038 @@
 {
-    "abacus": "ábaco", 
-    "Abacus": "Ábaco", 
-    "adventuring-gear": "equipamento", 
-    "Adventuring Gear": "Equipamento", 
-    "gp": "po", 
-    "Standard Gear": "Equipamento Padrão", 
-    "acid-vial": "ácido-vidro", 
-    "Acid (vial)": "Ácido (vidro)", 
-    "alchemists-fire-flask": "fogo-alquímico-frasco", 
-    "Alchemist's fire (flask)": "Fogo Alquímico (frasco)", 
-    "alchemists-supplies": "suprimentos-de-alquimista", 
-    "Alchemist's supplies": "Suprimentos de alquimista", 
-    "tools": "ferramentas", 
-    "Tools": "Ferramentas", 
-    "Artisan's Tools": "Ferramentas de Artesão", 
-    "amulet": "amuleto", 
-    "Amulet": "Amuleto", 
-    "Holy Symbols": "Símbolo Sagrado", 
-    "animal-feed-1-day": "ração-1-dia", 
-    "Animal Feed (1 day)": "Ração (1 dia)", 
-    "mounts-and-vehicles": "montarias-e-veículos", 
-    "Mounts and Vehicles": "Montarias e Veículos", 
-    "cp": "pc", 
-    "Tack, Harness, and Drawn Vehicles": "Arreios, Selas e Veículos de Tração", 
-    "antitoxin-vial": "antídoto-vidro", 
-    "Antitoxin (vial)": "Antídoto (vidro)", 
-    "arrow": "flechas", 
-    "Arrow": "Flechas", 
-    "Ammunition": "Munição", 
-    "backpack": "mochila", 
-    "Backpack": "Mochila", 
-    "bagpipes": "gaita-de-foles", 
-    "Bagpipes": "Gaita de foles", 
-    "Musical Instrument": "Instrumento musical", 
-    "ball-bearings-bag-of-1000": "esferas-sacola-com-1000", 
-    "Ball bearings (bag of 1,000)": "Esferas (sacola com 1.000)", 
-    "barding-breastplate": "armadura-de-montaria-peitoral", 
-    "Barding: Breastplate": "Armadura de montaria: Peitoral", 
-    "barding-chain-mail": "armadura-de-montaria-cota-de-malha", 
-    "Barding: Chain mail": "Armadura de montaria: Cota de malha", 
-    "barding-chain-shirt": "armadura-de-montaria-camisão-de-malha", 
-    "Barding: Chain shirt": "Armadura de montaria: Camisão de Malha", 
-    "barding-half-plate": "armadura-de-montaria-meia-armadura", 
-    "Barding: Half plate": "Armadura de montaria: Meia-Armadura", 
-    "barding-hide": "armadura-de-montaria-gibão-de-peles", 
-    "Barding: Hide": "Armadura de montaria: Gibão de Peles", 
-    "barding-leather": "armadura-de-montaria-couro", 
-    "Barding: Leather": "Armadura de montaria: Couro", 
-    "barding-padded": "armadura-de-montaria-acolchoado", 
-    "Barding: Padded": "Armadura de montaria: Acolchoado", 
-    "barding-plate": "armadura-de-montaria-placas", 
-    "Barding: Plate": "Armadura de montaria: Placas", 
-    "barding-ring-mail": "armadura-de-montaria-cota-de-anéis", 
-    "Barding: Ring mail": "Armadura de montaria: Cota de anéis", 
-    "barding-scale-mail": "armadura-de-montaria-brunea", 
-    "Barding: Scale mail": "Armadura de montaria: Brunea", 
-    "barding-splint": "armadura-de-montaria-cota-de-talas", 
-    "Barding: Splint": "Armadura de montaria: Cota de talas", 
-    "barding-studded-leather": "armadura-de-montaria-couro-batido", 
-    "Barding: Studded Leather": "Armadura de montaria: Couro Batido", 
-    "barrel": "barril", 
-    "Barrel": "Barril", 
-    "basket": "cesto", 
-    "Basket": "Cesto", 
-    "sp": "pp", 
-    "battleaxe": "machado-de-batalha", 
-    "Battleaxe": "Machado de Batalha", 
-    "weapon": "armas", 
-    "Weapon": "Armas", 
-    "Martial": "Marciais", 
-    "bedroll": "saco-de-dormir", 
-    "Bedroll": "Saco de dormir", 
-    "bell": "sino", 
-    "Bell": "Sino", 
-    "bit-and-bridle": "freio-e-rédea", 
-    "Bit and bridle": "Freio e rédea", 
-    "blanket": "cobertor-de-inverno", 
-    "Blanket": "Cobertor de inverno", 
-    "block-and-tackle": "roldana-e-polia", 
-    "Block and tackle": "Roldana e polia", 
-    "blowgun": "zarabatana", 
-    "Blowgun": "Zarabatana", 
-    "blowgun-needle": "zarabatana", 
-    "Blowgun needle": "Zarabatana", 
-    "book": "livro", 
-    "Book": "Livro", 
-    "bottle": "garrafa",
-    "Bottle": "Garrafa",
-    "bottle-glass": "garrafa-de-vidro", 
-    "Bottle, glass": "Garrafa de vidro", 
-    "breastplate": "peitoral", 
-    "Breastplate": "Peitoral", 
-    "armor": "armadura", 
-    "Armor": "Armadura", 
-    "Medium": "Média", 
-    "brewers-supplies": "suprimentos-de-cervejeiro", 
-    "Brewer's supplies": "Suprimentos de cervejeiro", 
-    "bucket": "balde", 
-    "Bucket": "Balde", 
-    "burglars-pack": "pacote-de-assaltante", 
-    "Burglar's Pack": "Pacote de Assaltante", 
-    "Equipment Packs": "Pacotes de Equipamento", 
-    "calligraphers-supplies": "suprimentos-de-caligrafia", 
-    "Calligrapher's supplies": "Suprimentos de caligrafia", 
-    "caltrops": "estrepes-bolsa-com-20", 
-    "Caltrops": "Estrepes (bolsa com 20)", 
-    "camel": "camelo", 
-    "Camel": "Camelo", 
-    "Mounts and Other Animals": "Montarias e Outros Animais", 
-    "candle": "vela", 
-    "Candle": "Vela", 
-    "carpenters-tools": "ferramentas-de-carpinteiro", 
-    "Carpenter's tools": "Ferramentas de carpinteiro", 
-    "carriage": "carruagem", 
-    "Carriage": "Carruagem", 
-    "cart": "carroça", 
-    "Cart": "Carroça", 
-    "cartographers-tools": "ferramentas-de-cartógrafo", 
-    "Cartographer's tools": "Ferramentas de cartógrafo", 
-    "case-crossbow-bolt": "porta-virotes", 
-    "Case, crossbow bolt": "Porta virotes", 
-    "case-map-or-scroll": "porta-mapas-ou-pergaminhos", 
-    "Case, map or scroll": "Porta mapas ou pergaminhos", 
-    "chain-10-feet": "corrente-3-metros", 
-    "Chain (10 feet)": "Corrente (3 metros)", 
-    "chain-mail": "cota-de-malha", 
-    "Chain Mail": "Cota de malha", 
-    "Heavy": "Pesado", 
-    "chain-shirt": "camisão-de-malha", 
-    "Chain Shirt": "Camisão de malha", 
-    "chalk-1-piece": "giz-1-peça", 
-    "Chalk (1 piece)": "Giz (1 peça)", 
-    "chariot": "biga", 
-    "Chariot": "Biga", 
-    "chest": "baú", 
-    "Chest": "Baú", 
-    "climbers-kit": "kit-de-escalada", 
-    "Climber's Kit": "Kit de escalada", 
-    "Kits": "Kits", 
-    "clothes-common": "roupas-comuns", 
-    "Clothes, common": "Roupas comuns", 
-    "clothes-costume": "roupas-de-entretenimento", 
-    "Clothes, costume": "Roupas de entretenimento", 
-    "clothes-fine": "roupas-finas", 
-    "Clothes, fine": "Roupas finas", 
-    "clothes-travelers": "roupas-de-viajante", 
-    "Clothes, traveler's": "Roupas de viajante", 
-    "club": "porrete", 
-    "Club": "Porrete", 
-    "Simple": "Simples", 
-    "cobblers-tools": "ferramentas-de-sapateiro", 
-    "Cobbler's tools": "Ferramentas de sapateiro", 
-    "component-pouch": "bolsa-de-componentes", 
-    "Component pouch": "Bolsa de componentes", 
-    "cooks-utensils": "utensílios-de-cozinheiro", 
-    "Cook's utensils": "Utensílios de cozinheiro", 
-    "crossbow-bolt": "virotes", 
-    "Crossbow bolt": "virotes", 
-    "crossbow-hand": "besta-de-mão", 
-    "Crossbow, hand": "Besta de Mão", 
-    "crossbow-heavy": "besta-pesada", 
-    "Crossbow, heavy": "Besta Pesada", 
-    "crossbow-light": "besta-leve", 
-    "Crossbow, light": "Besta Leve", 
-    "crowbar": "pé-de-cabra", 
-    "Crowbar": "Pé de cabra", 
-    "crystal": "cristal", 
-    "Crystal": "Cristal", 
-    "Arcane Focus": "Foco arcano", 
-    "Arcane Foci": "Foco arcano",
-    "arcane-foci": "foco-arcano",
-    "dagger": "adaga", 
-    "Dagger": "Adaga", 
-    "dart": "dardo", 
-    "Dart": "Dardo", 
-    "dice-set": "conjunto-de-dados", 
-    "Dice set": "Conjunto de dados", 
-    "Gaming Sets": "Kit de jogo", 
-    "diplomats-pack": "pacote-de-diplomata", 
-    "Diplomat's Pack": "Pacote de Diplomata", 
-    "disguise-kit": "kit-de-disfarce", 
-    "Disguise Kit": "Kit de disfarce", 
-    "donkey": "burro", 
-    "Donkey": "Burro", 
-    "drum": "tambor", 
-    "Drum": "Tambor", 
-    "dulcimer": "xilofone", 
-    "Dulcimer": "Xilofone", 
-    "dungeoneers-pack": "pacote-de-aventureiro", 
-    "Dungeoneer's Pack": "Pacote de Aventureiro", 
-    "elephant": "elefante", 
-    "Elephant": "Elefante", 
-    "emblem": "emblema", 
-    "Emblem": "Emblema", 
-    "entertainers-pack": "pacote-de-artista", 
-    "Entertainer's Pack": "Pacote de Artista", 
-    "explorers-pack": "pacote-de-explorador", 
-    "Explorer's Pack": "Pacote de Explorador", 
-    "fishing-tackle": "equipamento-de-pescaria", 
-    "Fishing tackle": "Equipamento de pescaria", 
-    "flail": "mangual", 
-    "Flail": "Mangual", 
-    "flask-or-tankard": "Caneca", 
-    "Flask or tankard": "caneca", 
-    "flute": "flauta", 
-    "Flute": "Flauta", 
-    "forgery-kit": "kit-de-falsificação", 
-    "Forgery Kit": "Kit de falsificação", 
-    "galley": "galera", 
-    "Galley": "Galera", 
-    "Waterborne Vehicles": "Veículos Aquáticos", 
-    "glaive": "glaive", 
-    "Glaive": "Glaive", 
-    "glassblowers-tools": "ferramentas-de-vidreiro", 
-    "Glassblower's tools": "Ferramentas de vidreiro", 
-    "grappling-hook": "arpéu", 
-    "Grappling hook": "Arpéu", 
-    "greataxe": "machado-grande", 
-    "Greataxe": "Machado Grande", 
-    "greatclub": "clava-grande", 
-    "Greatclub": "Clava Grande", 
-    "greatsword": "espada-grande", 
-    "Greatsword": "Espada Grande", 
-    "halberd": "alabarda", 
-    "Halberd": "Alabarda", 
-    "half-plate": "meia-armadura", 
-    "Half Plate": "Meia-Armadura", 
-    "hammer": "martelo", 
-    "Hammer": "Martelo", 
-    "hammer-sledge": "marreta", 
-    "Hammer, sledge": "Marreta", 
-    "handaxe": "machadinha", 
-    "Handaxe": "Machadinha", 
-    "healers-kit": "kit-de-primeiros-socorros", 
-    "Healer's Kit": "Kit de primeiros-socorros", 
-    "herbalism-kit": "kit-de-herbalismo", 
-    "Herbalism Kit": "Kit de herbalismo", 
-    "hide": "gibão-de-peles", 
-    "Hide": "Gibão de Peles", 
-    "holy-water-flask": "água-benta-frasco", 
-    "Holy water (flask)": "Água benta (frasco)", 
-    "horn": "trombeta", 
-    "Horn": "Trombeta", 
-    "horse-draft": "cavalo-pesado", 
-    "Horse, draft": "Cavalo pesado", 
-    "horse-riding": "cavalo-de-montaria", 
-    "Horse, riding": "Cavalo de montaria", 
-    "hourglass": "ampulheta", 
-    "Hourglass": "Ampulheta", 
-    "hunting-trap": "armadilha-de-caça", 
-    "Hunting trap": "Armadilha de caça", 
-    "ink-1-ounce-bottle": "tinta-frasco-de-30ml", 
-    "Ink (1 ounce bottle)": "Tinta (frasco de 30ml)", 
-    "ink-pen": "caneta-tinteiro", 
-    "Ink pen": "Caneta tinteiro", 
-    "javelin": "azagaia", 
-    "Javelin": "Azagaia", 
-    "jewelers-tools": "ferramentas-de-joalheiro", 
-    "Jeweler's tools": "Ferramentas de joalheiro", 
-    "jug-or-pitcher": "jarra", 
-    "Jug or pitcher": "Jarra", 
-    "keelboat": "barco-de-quilha", 
-    "Keelboat": "Barco de quilha", 
-    "ladder-10-foot": "escada-3-metros", 
-    "Ladder (10-foot)": "Escada (3 metros)", 
-    "lamp": "lâmpada", 
-    "Lamp": "Lâmpada", 
-    "lance": "lança-de-montaria", 
-    "Lance": "Lança de Montaria", 
-    "lantern-bullseye": "lanterna-furta-fogo", 
-    "Lantern, bullseye": "Lanterna furta-fogo", 
-    "lantern-hooded": "lanterna-coberta", 
-    "Lantern, hooded": "Lanterna coberta", 
-    "leather": "couro", 
-    "Leather": "Couro", 
-    "Light": "Leve", 
-    "leatherworkers-tools": "ferramentas-de-coureiro", 
-    "Leatherworker's tools": "Ferramentas de coureiro", 
-    "light-hammer": "martelo-leve", 
-    "Light hammer": "martelo-leve", 
-    "lock": "fechadura", 
-    "Lock": "Fechadura", 
-    "longbow": "arco-longo", 
-    "Longbow": "Arco Longo", 
-    "longship": "dracar", 
-    "Longship": "Dracar", 
-    "longsword": "espada-longa", 
-    "Longsword": "Espada Longa", 
-    "lute": "alaúde", 
-    "Lute": "Alaúde", 
-    "lyre": "lira", 
-    "Lyre": "Lira", 
-    "mace": "maça", 
-    "Mace": "Maça", 
-    "magnifying-glass": "lente-de-aumento", 
-    "Magnifying glass": "Lente de aumento", 
-    "manacles": "algemas", 
-    "Manacles": "Algemas", 
-    "masons-tools": "ferramentas-de-pedreiro", 
-    "Mason's tools": "Ferramentas de pedreiro", 
-    "mastiff": "mastim", 
-    "Mastiff": "Mastim", 
-    "maul": "malho", 
-    "Maul": "Malho", 
-    "mess-kit": "kit-de-refeição", 
-    "Mess Kit": "Kit de Refeição", 
-    "mirror-steel": "espelho-de-aço", 
-    "Mirror, steel": "Espelho de aço", 
-    "morningstar": "maça-estrela", 
-    "Morningstar": "Maça Estrela", 
-    "mule": "mula", 
-    "Mule": "Mula", 
-    "navigators-tools": "ferramentas-de-navegação", 
-    "Navigator's tools": "Ferramentas de navegação", 
-    "Other Tools": "Outras Ferramentas", 
-    "net": "rede", 
-    "Net": "Rede", 
-    "oil-flask": "óleo-frasco", 
-    "Oil (flask)": "Óleo (frasco)", 
-    "orb": "orbe", 
-    "Orb": "Orbe", 
-    "padded": "acolchoado", 
-    "Padded": "Acolchoado", 
-    "painters-supplies": "ferramentas-de-pintor", 
-    "Painter's supplies": "Ferramentas de pintor", 
-    "pan-flute": "flauta-de-pã", 
-    "Pan flute": "Flauta de pã", 
-    "paper-one-sheet": "papel-uma-folha", 
-    "Paper (one sheet)": "Papel (uma folha)", 
-    "parchment-one-sheet": "pergaminho-uma-folha", 
-    "Parchment (one sheet)": "Pergaminho (uma folha)", 
-    "perfume-vial": "perfume-frasco", 
-    "Perfume (vial)": "Perfume (frasco)", 
-    "pick-miners": "picareta-de-minerador", 
-    "Pick, miner's": "Picareta de minerador", 
-    "pike": "lança-longa", 
-    "Pike": "Lança Longa", 
-    "piton": "píton", 
-    "Piton": "Píton", 
-    "plate": "placas", 
-    "Plate": "Placas", 
-    "playing-card-set": "baralho-de-cartas", 
-    "Playing card set": "Baralho de cartas", 
-    "poison-basic-vial": "veneno-básico-frasco", 
-    "Poison, basic (vial)": "Veneno básico (frasco)", 
-    "poisoners-kit": "kit-de-venenos", 
-    "Poisoner's Kit": "Kit de venenos", 
-    "pole-10-foot": "vara-3-metros", 
-    "Pole (10-foot)": "Vara (3 metros)", 
-    "pony": "pônei", 
-    "Pony": "Pônei", 
-    "pot-iron": "panela-de-ferro", 
-    "Pot, iron": "Panela de Ferro", 
-    "potion-of-healing": "poção-de-cura", 
-    "Potion of healing": "Poção de cura", 
-    "potters-tools": "ferramentas-de-oleiro", 
-    "Potter's tools": "Ferramentas de oleiro", 
-    "pouch": "algibeira", 
-    "Pouch": "Algibeira", 
-    "priests-pack": "pacote-de-sacerdote", 
-    "Priest's Pack": "Pacote de Sacerdote", 
-    "quarterstaff": "bordão", 
-    "Quarterstaff": "Bordão", 
-    "quiver": "aljava", 
-    "Quiver": "Aljava", 
-    "ram-portable": "aríete-portátil", 
-    "Ram, portable": "Aríete portátil", 
-    "rapier": "rapieira", 
-    "Rapier": "Rapieira", 
-    "rations-1-day": "rações-de-viagem-1-dia", 
-    "Rations (1 day)": "Rações de viagem (1 dia)", 
-    "reliquary": "relicário", 
-    "Reliquary": "Relicário", 
-    "riding": "viagem", 
-    "Riding": "Viagem", 
-    "ring-mail": "cota-de-anéis", 
-    "Ring Mail": "Cota de anéis", 
-    "robes": "robes", 
-    "Robes": "Robes", 
-    "rod": "bastão", 
-    "Rod": "Bastão", 
-    "rope-hempen-50-feet": "corda-de-cânhamo-15-metros", 
-    "Rope, hempen (50 feet)": "Corda de cânhamo (15 metros)", 
-    "rope-silk-50-feet": "corda-de-seda-15-metros", 
-    "Rope, silk (50 feet)": "Corda de seda (15 metros)", 
-    "rowboat": "barco-a-remo", 
-    "Rowboat": "Barco a remo", 
-    "sack": "saco", 
-    "Sack": "Saco", 
-    "saddle-exotic": "exótica", 
-    "Saddle, Exotic": "Exótica", 
-    "saddle-military": "militar", 
-    "Saddle, Military": "Militar", 
-    "saddle-pack": "compacta", 
-    "Saddle, Pack": "Compacta", 
-    "saddlebags": "alforje", 
-    "Saddlebags": "Alforje", 
-    "sailing-ship": "veleiro", 
-    "Sailing ship": "Veleiro", 
-    "scale-mail": "brunea", 
-    "Scale Mail": "Brunea", 
-    "scale-merchants": "balança-de-mercador", 
-    "Scale, merchant's": "Balança de mercador", 
-    "scholars-pack": "pacote-de-estudioso", 
-    "Scholar's Pack": "Pacote de Estudioso", 
-    "scimitar": "cimitarra", 
-    "Scimitar": "Cimitarra", 
-    "sealing-wax": "parafina", 
-    "Sealing wax": "Parafina", 
-    "shawm": "oboé", 
-    "Shawm": "Oboé", 
-    "shield": "escudo", 
-    "Shield": "Escudo", 
-    "shortbow": "arco-curto", 
-    "Shortbow": "Arco Curto", 
-    "shortsword": "espada-curta", 
-    "Shortsword": "Espada Curta", 
-    "shovel": "pá", 
-    "Shovel": "Pá", 
-    "sickle": "foice-curta", 
-    "Sickle": "Foice Curta", 
-    "signal-whistle": "apito-de-advertência", 
-    "Signal whistle": "Apito de advertência", 
-    "signet-ring": "sinete", 
-    "Signet ring": "Sinete", 
-    "sled": "trenó", 
-    "Sled": "Trenó", 
-    "sling": "funda", 
-    "Sling": "Funda", 
-    "sling-bullet": "balas-de-funda", 
-    "Sling bullet": "Balas de Funda", 
-    "smiths-tools": "ferramentas-de-ferreiro", 
-    "Smith's tools": "Ferramentas de ferreiro", 
-    "soap": "sabão", 
-    "Soap": "Sabão", 
-    "spear": "lança", 
-    "Spear": "Lança", 
-    "spellbook": "grimório", 
-    "Spellbook": "Grimório", 
-    "spike-iron": "pregos-de-ferro", 
-    "Spike, iron": "Pregos de ferro", 
-    "splint": "cota-de-talas", 
-    "Splint": "Cota de talas", 
-    "sprig-of-mistletoe": "ramo-de-visco", 
-    "Sprig of mistletoe": "Ramo de visco", 
-    "Druidic Focus": "Foco druídico", 
-    "druidic-foci": "foco-druídico",
-    "Druidic Foci": "Foco druídico",
-    "spyglass": "luneta", 
-    "Spyglass": "Luneta", 
-    "stabling-1-day": "estábulo", 
-    "Stabling (1 day)": "Estábulo", 
-    "staff": "cajado", 
-    "Staff": "Cajado", 
-    "studded-leather": "couro-batido", 
-    "Studded Leather": "Couro Batido", 
-    "tent-two-person": "tenda-para-duas-pessoas", 
-    "Tent, two-person": "Tenda para duas pessoas", 
-    "thieves-tools": "ferramentas-de-ladrão", 
-    "Thieves' tools": "Ferramentas de ladrão", 
-    "tinderbox": "caixa-de-fogo", 
-    "Tinderbox": "Caixa de Fogo", 
-    "tinkers-tools": "ferramentas-de-funileiro", 
-    "Tinker's tools": "Ferramentas de funileiro", 
-    "torch": "tocha", 
-    "Torch": "Tocha", 
-    "totem": "totem", 
-    "Totem": "Totem", 
-    "trident": "tridente", 
-    "Trident": "Tridente", 
-    "vial": "frasco", 
-    "Vial": "Frasco", 
-    "viol": "violino", 
-    "Viol": "Violino", 
-    "wagon": "vagão", 
-    "Wagon": "Vagão", 
-    "wand": "varinha", 
-    "Wand": "Varinha", 
-    "war-pick": "picareta-de-guerra", 
-    "War pick": "Picareta de Guerra", 
-    "warhammer": "martelo-de-guerra", 
-    "Warhammer": "Martelo de Guerra", 
-    "warhorse": "cavalo-de-guerra", 
-    "Warhorse": "Cavalo de guerra", 
-    "warship": "navio-de-guerra", 
-    "Warship": "Navio de guerra", 
-    "waterskin": "cantil", 
-    "Waterskin": "Cantil", 
-    "weavers-tools": "ferramentas-de-costureiro", 
-    "Weaver's tools": "Ferramentas de costureiro", 
-    "whetstone": "pedra-de-amolar", 
-    "Whetstone": "Pedra de amolar", 
-    "whip": "chicote", 
-    "Whip": "Chicote", 
-    "woodcarvers-tools": "ferramentas-de-entalhador", 
-    "Woodcarver's tools": "Ferramentas de entalhador", 
-    "wooden-staff": "cajado-de-madeira", 
-    "Wooden staff": "Cajado de madeira", 
-    "yew-wand": "varinha-de-teixo", 
-    "Yew wand": "Varinha de teixo"
+    "abacus": {
+        "en": "abacus",
+        "pt-br": "ábaco"
+    },
+    "Abacus": {
+        "en": "Abacus",
+        "pt-br": "Ábaco"
+    },
+    "adventuring-gear": {
+        "en": "adventuring-gear",
+        "pt-br": "equipamento"
+    },
+    "Adventuring Gear": {
+        "en": "Adventuring Gear",
+        "pt-br": "Equipamento"
+    },
+    "gp": {
+        "en": "gp",
+        "pt-br": "po"
+    },
+    "Standard Gear": {
+        "en": "Standard Gear",
+        "pt-br": "Equipamento Padrão"
+    },
+    "acid-vial": {
+        "en": "acid-vial",
+        "pt-br": "ácido-vidro"
+    },
+    "Acid (vial)": {
+        "en": "Acid (vial)",
+        "pt-br": "Ácido (vidro)"
+    },
+    "alchemists-fire-flask": {
+        "en": "alchemists-fire-flask",
+        "pt-br": "fogo-alquímico-frasco"
+    },
+    "Alchemist's fire (flask)": {
+        "en": "Alchemist's fire (flask)",
+        "pt-br": "Fogo Alquímico (frasco)"
+    },
+    "alchemists-supplies": {
+        "en": "alchemists-supplies",
+        "pt-br": "suprimentos-de-alquimista"
+    },
+    "Alchemist's supplies": {
+        "en": "Alchemist's supplies",
+        "pt-br": "Suprimentos de alquimista"
+    },
+    "tools": {
+        "en": "tools",
+        "pt-br": "ferramentas"
+    },
+    "Tools": {
+        "en": "Tools",
+        "pt-br": "Ferramentas"
+    },
+    "Artisan's Tools": {
+        "en": "Artisan's Tools",
+        "pt-br": "Ferramentas de Artesão"
+    },
+    "amulet": {
+        "en": "amulet",
+        "pt-br": "amuleto"
+    },
+    "Amulet": {
+        "en": "Amulet",
+        "pt-br": "Amuleto"
+    },
+    "Holy Symbols": {
+        "en": "Holy Symbols",
+        "pt-br": "Símbolo Sagrado"
+    },
+    "animal-feed-1-day": {
+        "en": "animal-feed-1-day",
+        "pt-br": "ração-1-dia"
+    },
+    "Animal Feed (1 day)": {
+        "en": "Animal Feed (1 day)",
+        "pt-br": "Ração (1 dia)"
+    },
+    "mounts-and-vehicles": {
+        "en": "mounts-and-vehicles",
+        "pt-br": "montarias-e-veículos"
+    },
+    "Mounts and Vehicles": {
+        "en": "Mounts and Vehicles",
+        "pt-br": "Montarias e Veículos"
+    },
+    "cp": {
+        "en": "cp",
+        "pt-br": "pc"
+    },
+    "Tack, Harness, and Drawn Vehicles": {
+        "en": "Tack, Harness, and Drawn Vehicles",
+        "pt-br": "Arreios, Selas e Veículos de Tração"
+    },
+    "antitoxin-vial": {
+        "en": "antitoxin-vial",
+        "pt-br": "antídoto-vidro"
+    },
+    "Antitoxin (vial)": {
+        "en": "Antitoxin (vial)",
+        "pt-br": "Antídoto (vidro)"
+    },
+    "arrow": {
+        "en": "arrow",
+        "pt-br": "flechas"
+    },
+    "Arrow": {
+        "en": "Arrow",
+        "pt-br": "Flechas"
+    },
+    "Ammunition": {
+        "en": "Ammunition",
+        "pt-br": "Munição"
+    },
+    "backpack": {
+        "en": "backpack",
+        "pt-br": "mochila"
+    },
+    "Backpack": {
+        "en": "Backpack",
+        "pt-br": "Mochila"
+    },
+    "bagpipes": {
+        "en": "bagpipes",
+        "pt-br": "gaita-de-foles"
+    },
+    "Bagpipes": {
+        "en": "Bagpipes",
+        "pt-br": "Gaita de foles"
+    },
+    "Musical Instrument": {
+        "en": "Musical Instrument",
+        "pt-br": "Instrumento musical"
+    },
+    "ball-bearings-bag-of-1000": {
+        "en": "ball-bearings-bag-of-1000",
+        "pt-br": "esferas-sacola-com-1000"
+    },
+    "Ball bearings (bag of 1,000)": {
+        "en": "Ball bearings (bag of 1,000)",
+        "pt-br": "Esferas (sacola com 1.000)"
+    },
+    "barding-breastplate": {
+        "en": "barding-breastplate",
+        "pt-br": "armadura-de-montaria-peitoral"
+    },
+    "Barding: Breastplate": {
+        "en": "Barding: Breastplate",
+        "pt-br": "Armadura de montaria: Peitoral"
+    },
+    "barding-chain-mail": {
+        "en": "barding-chain-mail",
+        "pt-br": "armadura-de-montaria-cota-de-malha"
+    },
+    "Barding: Chain mail": {
+        "en": "Barding: Chain mail",
+        "pt-br": "Armadura de montaria: Cota de malha"
+    },
+    "barding-chain-shirt": {
+        "en": "barding-chain-shirt",
+        "pt-br": "armadura-de-montaria-camisão-de-malha"
+    },
+    "Barding: Chain shirt": {
+        "en": "Barding: Chain shirt",
+        "pt-br": "Armadura de montaria: Camisão de Malha"
+    },
+    "barding-half-plate": {
+        "en": "barding-half-plate",
+        "pt-br": "armadura-de-montaria-meia-armadura"
+    },
+    "Barding: Half plate": {
+        "en": "Barding: Half plate",
+        "pt-br": "Armadura de montaria: Meia-Armadura"
+    },
+    "barding-hide": {
+        "en": "barding-hide",
+        "pt-br": "armadura-de-montaria-gibão-de-peles"
+    },
+    "Barding: Hide": {
+        "en": "Barding: Hide",
+        "pt-br": "Armadura de montaria: Gibão de Peles"
+    },
+    "barding-leather": {
+        "en": "barding-leather",
+        "pt-br": "armadura-de-montaria-couro"
+    },
+    "Barding: Leather": {
+        "en": "Barding: Leather",
+        "pt-br": "Armadura de montaria: Couro"
+    },
+    "barding-padded": {
+        "en": "barding-padded",
+        "pt-br": "armadura-de-montaria-acolchoado"
+    },
+    "Barding: Padded": {
+        "en": "Barding: Padded",
+        "pt-br": "Armadura de montaria: Acolchoado"
+    },
+    "barding-plate": {
+        "en": "barding-plate",
+        "pt-br": "armadura-de-montaria-placas"
+    },
+    "Barding: Plate": {
+        "en": "Barding: Plate",
+        "pt-br": "Armadura de montaria: Placas"
+    },
+    "barding-ring-mail": {
+        "en": "barding-ring-mail",
+        "pt-br": "armadura-de-montaria-cota-de-anéis"
+    },
+    "Barding: Ring mail": {
+        "en": "Barding: Ring mail",
+        "pt-br": "Armadura de montaria: Cota de anéis"
+    },
+    "barding-scale-mail": {
+        "en": "barding-scale-mail",
+        "pt-br": "armadura-de-montaria-brunea"
+    },
+    "Barding: Scale mail": {
+        "en": "Barding: Scale mail",
+        "pt-br": "Armadura de montaria: Brunea"
+    },
+    "barding-splint": {
+        "en": "barding-splint",
+        "pt-br": "armadura-de-montaria-cota-de-talas"
+    },
+    "Barding: Splint": {
+        "en": "Barding: Splint",
+        "pt-br": "Armadura de montaria: Cota de talas"
+    },
+    "barding-studded-leather": {
+        "en": "barding-studded-leather",
+        "pt-br": "armadura-de-montaria-couro-batido"
+    },
+    "Barding: Studded Leather": {
+        "en": "Barding: Studded Leather",
+        "pt-br": "Armadura de montaria: Couro Batido"
+    },
+    "barrel": {
+        "en": "barrel",
+        "pt-br": "barril"
+    },
+    "Barrel": {
+        "en": "Barrel",
+        "pt-br": "Barril"
+    },
+    "basket": {
+        "en": "basket",
+        "pt-br": "cesto"
+    },
+    "Basket": {
+        "en": "Basket",
+        "pt-br": "Cesto"
+    },
+    "sp": {
+        "en": "sp",
+        "pt-br": "pp"
+    },
+    "battleaxe": {
+        "en": "battleaxe",
+        "pt-br": "machado-de-batalha"
+    },
+    "Battleaxe": {
+        "en": "Battleaxe",
+        "pt-br": "Machado de Batalha"
+    },
+    "weapon": {
+        "en": "weapon",
+        "pt-br": "armas"
+    },
+    "Weapon": {
+        "en": "Weapon",
+        "pt-br": "Armas"
+    },
+    "Martial": {
+        "en": "Martial",
+        "pt-br": "Marciais"
+    },
+    "bedroll": {
+        "en": "bedroll",
+        "pt-br": "saco-de-dormir"
+    },
+    "Bedroll": {
+        "en": "Bedroll",
+        "pt-br": "Saco de dormir"
+    },
+    "bell": {
+        "en": "bell",
+        "pt-br": "sino"
+    },
+    "Bell": {
+        "en": "Bell",
+        "pt-br": "Sino"
+    },
+    "bit-and-bridle": {
+        "en": "bit-and-bridle",
+        "pt-br": "freio-e-rédea"
+    },
+    "Bit and bridle": {
+        "en": "Bit and bridle",
+        "pt-br": "Freio e rédea"
+    },
+    "blanket": {
+        "en": "blanket",
+        "pt-br": "cobertor-de-inverno"
+    },
+    "Blanket": {
+        "en": "Blanket",
+        "pt-br": "Cobertor de inverno"
+    },
+    "block-and-tackle": {
+        "en": "block-and-tackle",
+        "pt-br": "roldana-e-polia"
+    },
+    "Block and tackle": {
+        "en": "Block and tackle",
+        "pt-br": "Roldana e polia"
+    },
+    "blowgun": {
+        "en": "blowgun",
+        "pt-br": "zarabatana"
+    },
+    "Blowgun": {
+        "en": "Blowgun",
+        "pt-br": "Zarabatana"
+    },
+    "blowgun-needle": {
+        "en": "blowgun-needle",
+        "pt-br": "zarabatana"
+    },
+    "Blowgun needle": {
+        "en": "Blowgun needle",
+        "pt-br": "Zarabatana"
+    },
+    "book": {
+        "en": "book",
+        "pt-br": "livro"
+    },
+    "Book": {
+        "en": "Book",
+        "pt-br": "Livro"
+    },
+    "bottle": {
+        "en": "bottle",
+        "pt-br": "garrafa"
+    },
+    "Bottle": {
+        "en": "Bottle",
+        "pt-br": "Garrafa"
+    },
+    "bottle-glass": {
+        "en": "bottle-glass",
+        "pt-br": "garrafa-de-vidro"
+    },
+    "Bottle, glass": {
+        "en": "Bottle, glass",
+        "pt-br": "Garrafa de vidro"
+    },
+    "breastplate": {
+        "en": "breastplate",
+        "pt-br": "peitoral"
+    },
+    "Breastplate": {
+        "en": "Breastplate",
+        "pt-br": "Peitoral"
+    },
+    "armor": {
+        "en": "armor",
+        "pt-br": "armadura"
+    },
+    "Armor": {
+        "en": "Armor",
+        "pt-br": "Armadura"
+    },
+    "Medium": {
+        "en": "Medium",
+        "pt-br": "Média"
+    },
+    "brewers-supplies": {
+        "en": "brewers-supplies",
+        "pt-br": "suprimentos-de-cervejeiro"
+    },
+    "Brewer's supplies": {
+        "en": "Brewer's supplies",
+        "pt-br": "Suprimentos de cervejeiro"
+    },
+    "bucket": {
+        "en": "bucket",
+        "pt-br": "balde"
+    },
+    "Bucket": {
+        "en": "Bucket",
+        "pt-br": "Balde"
+    },
+    "burglars-pack": {
+        "en": "burglars-pack",
+        "pt-br": "pacote-de-assaltante"
+    },
+    "Burglar's Pack": {
+        "en": "Burglar's Pack",
+        "pt-br": "Pacote de Assaltante"
+    },
+    "Equipment Packs": {
+        "en": "Equipment Packs",
+        "pt-br": "Pacotes de Equipamento"
+    },
+    "calligraphers-supplies": {
+        "en": "calligraphers-supplies",
+        "pt-br": "suprimentos-de-caligrafia"
+    },
+    "Calligrapher's supplies": {
+        "en": "Calligrapher's supplies",
+        "pt-br": "Suprimentos de caligrafia"
+    },
+    "caltrops": {
+        "en": "caltrops",
+        "pt-br": "estrepes-bolsa-com-20"
+    },
+    "Caltrops": {
+        "en": "Caltrops",
+        "pt-br": "Estrepes (bolsa com 20)"
+    },
+    "camel": {
+        "en": "camel",
+        "pt-br": "camelo"
+    },
+    "Camel": {
+        "en": "Camel",
+        "pt-br": "Camelo"
+    },
+    "Mounts and Other Animals": {
+        "en": "Mounts and Other Animals",
+        "pt-br": "Montarias e Outros Animais"
+    },
+    "candle": {
+        "en": "candle",
+        "pt-br": "vela"
+    },
+    "Candle": {
+        "en": "Candle",
+        "pt-br": "Vela"
+    },
+    "carpenters-tools": {
+        "en": "carpenters-tools",
+        "pt-br": "ferramentas-de-carpinteiro"
+    },
+    "Carpenter's tools": {
+        "en": "Carpenter's tools",
+        "pt-br": "Ferramentas de carpinteiro"
+    },
+    "carriage": {
+        "en": "carriage",
+        "pt-br": "carruagem"
+    },
+    "Carriage": {
+        "en": "Carriage",
+        "pt-br": "Carruagem"
+    },
+    "cart": {
+        "en": "cart",
+        "pt-br": "carroça"
+    },
+    "Cart": {
+        "en": "Cart",
+        "pt-br": "Carroça"
+    },
+    "cartographers-tools": {
+        "en": "cartographers-tools",
+        "pt-br": "ferramentas-de-cartógrafo"
+    },
+    "Cartographer's tools": {
+        "en": "Cartographer's tools",
+        "pt-br": "Ferramentas de cartógrafo"
+    },
+    "case-crossbow-bolt": {
+        "en": "case-crossbow-bolt",
+        "pt-br": "porta-virotes"
+    },
+    "Case, crossbow bolt": {
+        "en": "Case, crossbow bolt",
+        "pt-br": "Porta virotes"
+    },
+    "case-map-or-scroll": {
+        "en": "case-map-or-scroll",
+        "pt-br": "porta-mapas-ou-pergaminhos"
+    },
+    "Case, map or scroll": {
+        "en": "Case, map or scroll",
+        "pt-br": "Porta mapas ou pergaminhos"
+    },
+    "chain-10-feet": {
+        "en": "chain-10-feet",
+        "pt-br": "corrente-3-metros"
+    },
+    "Chain (10 feet)": {
+        "en": "Chain (10 feet)",
+        "pt-br": "Corrente (3 metros)"
+    },
+    "chain-mail": {
+        "en": "chain-mail",
+        "pt-br": "cota-de-malha"
+    },
+    "Chain Mail": {
+        "en": "Chain Mail",
+        "pt-br": "Cota de malha"
+    },
+    "Heavy": {
+        "en": "Heavy",
+        "pt-br": "Pesado"
+    },
+    "chain-shirt": {
+        "en": "chain-shirt",
+        "pt-br": "camisão-de-malha"
+    },
+    "Chain Shirt": {
+        "en": "Chain Shirt",
+        "pt-br": "Camisão de malha"
+    },
+    "chalk-1-piece": {
+        "en": "chalk-1-piece",
+        "pt-br": "giz-1-peça"
+    },
+    "Chalk (1 piece)": {
+        "en": "Chalk (1 piece)",
+        "pt-br": "Giz (1 peça)"
+    },
+    "chariot": {
+        "en": "chariot",
+        "pt-br": "biga"
+    },
+    "Chariot": {
+        "en": "Chariot",
+        "pt-br": "Biga"
+    },
+    "chest": {
+        "en": "chest",
+        "pt-br": "baú"
+    },
+    "Chest": {
+        "en": "Chest",
+        "pt-br": "Baú"
+    },
+    "climbers-kit": {
+        "en": "climbers-kit",
+        "pt-br": "kit-de-escalada"
+    },
+    "Climber's Kit": {
+        "en": "Climber's Kit",
+        "pt-br": "Kit de escalada"
+    },
+    "Kits": {
+        "en": "Kits",
+        "pt-br": "Kits"
+    },
+    "clothes-common": {
+        "en": "clothes-common",
+        "pt-br": "roupas-comuns"
+    },
+    "Clothes, common": {
+        "en": "Clothes, common",
+        "pt-br": "Roupas comuns"
+    },
+    "clothes-costume": {
+        "en": "clothes-costume",
+        "pt-br": "roupas-de-entretenimento"
+    },
+    "Clothes, costume": {
+        "en": "Clothes, costume",
+        "pt-br": "Roupas de entretenimento"
+    },
+    "clothes-fine": {
+        "en": "clothes-fine",
+        "pt-br": "roupas-finas"
+    },
+    "Clothes, fine": {
+        "en": "Clothes, fine",
+        "pt-br": "Roupas finas"
+    },
+    "clothes-travelers": {
+        "en": "clothes-travelers",
+        "pt-br": "roupas-de-viajante"
+    },
+    "Clothes, traveler's": {
+        "en": "Clothes, traveler's",
+        "pt-br": "Roupas de viajante"
+    },
+    "club": {
+        "en": "club",
+        "pt-br": "porrete"
+    },
+    "Club": {
+        "en": "Club",
+        "pt-br": "Porrete"
+    },
+    "Simple": {
+        "en": "Simple",
+        "pt-br": "Simples"
+    },
+    "cobblers-tools": {
+        "en": "cobblers-tools",
+        "pt-br": "ferramentas-de-sapateiro"
+    },
+    "Cobbler's tools": {
+        "en": "Cobbler's tools",
+        "pt-br": "Ferramentas de sapateiro"
+    },
+    "component-pouch": {
+        "en": "component-pouch",
+        "pt-br": "bolsa-de-componentes"
+    },
+    "Component pouch": {
+        "en": "Component pouch",
+        "pt-br": "Bolsa de componentes"
+    },
+    "cooks-utensils": {
+        "en": "cooks-utensils",
+        "pt-br": "utensílios-de-cozinheiro"
+    },
+    "Cook's utensils": {
+        "en": "Cook's utensils",
+        "pt-br": "Utensílios de cozinheiro"
+    },
+    "crossbow-bolt": {
+        "en": "crossbow-bolt",
+        "pt-br": "virotes"
+    },
+    "Crossbow bolt": {
+        "en": "Crossbow bolt",
+        "pt-br": "virotes"
+    },
+    "crossbow-hand": {
+        "en": "crossbow-hand",
+        "pt-br": "besta-de-mão"
+    },
+    "Crossbow, hand": {
+        "en": "Crossbow, hand",
+        "pt-br": "Besta de Mão"
+    },
+    "crossbow-heavy": {
+        "en": "crossbow-heavy",
+        "pt-br": "besta-pesada"
+    },
+    "Crossbow, heavy": {
+        "en": "Crossbow, heavy",
+        "pt-br": "Besta Pesada"
+    },
+    "crossbow-light": {
+        "en": "crossbow-light",
+        "pt-br": "besta-leve"
+    },
+    "Crossbow, light": {
+        "en": "Crossbow, light",
+        "pt-br": "Besta Leve"
+    },
+    "crowbar": {
+        "en": "crowbar",
+        "pt-br": "pé-de-cabra"
+    },
+    "Crowbar": {
+        "en": "Crowbar",
+        "pt-br": "Pé de cabra"
+    },
+    "crystal": {
+        "en": "crystal",
+        "pt-br": "cristal"
+    },
+    "Crystal": {
+        "en": "Crystal",
+        "pt-br": "Cristal"
+    },
+    "Arcane Focus": {
+        "en": "Arcane Focus",
+        "pt-br": "Foco arcano"
+    },
+    "Arcane Foci": {
+        "en": "Arcane Foci",
+        "pt-br": "Foco arcano"
+    },
+    "arcane-foci": {
+        "en": "arcane-foci",
+        "pt-br": "foco-arcano"
+    },
+    "dagger": {
+        "en": "dagger",
+        "pt-br": "adaga"
+    },
+    "Dagger": {
+        "en": "Dagger",
+        "pt-br": "Adaga"
+    },
+    "dart": {
+        "en": "dart",
+        "pt-br": "dardo"
+    },
+    "Dart": {
+        "en": "Dart",
+        "pt-br": "Dardo"
+    },
+    "dice-set": {
+        "en": "dice-set",
+        "pt-br": "conjunto-de-dados"
+    },
+    "Dice set": {
+        "en": "Dice set",
+        "pt-br": "Conjunto de dados"
+    },
+    "Gaming Sets": {
+        "en": "Gaming Sets",
+        "pt-br": "Kit de jogo"
+    },
+    "diplomats-pack": {
+        "en": "diplomats-pack",
+        "pt-br": "pacote-de-diplomata"
+    },
+    "Diplomat's Pack": {
+        "en": "Diplomat's Pack",
+        "pt-br": "Pacote de Diplomata"
+    },
+    "disguise-kit": {
+        "en": "disguise-kit",
+        "pt-br": "kit-de-disfarce"
+    },
+    "Disguise Kit": {
+        "en": "Disguise Kit",
+        "pt-br": "Kit de disfarce"
+    },
+    "donkey": {
+        "en": "donkey",
+        "pt-br": "burro"
+    },
+    "Donkey": {
+        "en": "Donkey",
+        "pt-br": "Burro"
+    },
+    "drum": {
+        "en": "drum",
+        "pt-br": "tambor"
+    },
+    "Drum": {
+        "en": "Drum",
+        "pt-br": "Tambor"
+    },
+    "dulcimer": {
+        "en": "dulcimer",
+        "pt-br": "xilofone"
+    },
+    "Dulcimer": {
+        "en": "Dulcimer",
+        "pt-br": "Xilofone"
+    },
+    "dungeoneers-pack": {
+        "en": "dungeoneers-pack",
+        "pt-br": "pacote-de-aventureiro"
+    },
+    "Dungeoneer's Pack": {
+        "en": "Dungeoneer's Pack",
+        "pt-br": "Pacote de Aventureiro"
+    },
+    "elephant": {
+        "en": "elephant",
+        "pt-br": "elefante"
+    },
+    "Elephant": {
+        "en": "Elephant",
+        "pt-br": "Elefante"
+    },
+    "emblem": {
+        "en": "emblem",
+        "pt-br": "emblema"
+    },
+    "Emblem": {
+        "en": "Emblem",
+        "pt-br": "Emblema"
+    },
+    "entertainers-pack": {
+        "en": "entertainers-pack",
+        "pt-br": "pacote-de-artista"
+    },
+    "Entertainer's Pack": {
+        "en": "Entertainer's Pack",
+        "pt-br": "Pacote de Artista"
+    },
+    "explorers-pack": {
+        "en": "explorers-pack",
+        "pt-br": "pacote-de-explorador"
+    },
+    "Explorer's Pack": {
+        "en": "Explorer's Pack",
+        "pt-br": "Pacote de Explorador"
+    },
+    "fishing-tackle": {
+        "en": "fishing-tackle",
+        "pt-br": "equipamento-de-pescaria"
+    },
+    "Fishing tackle": {
+        "en": "Fishing tackle",
+        "pt-br": "Equipamento de pescaria"
+    },
+    "flail": {
+        "en": "flail",
+        "pt-br": "mangual"
+    },
+    "Flail": {
+        "en": "Flail",
+        "pt-br": "Mangual"
+    },
+    "flask-or-tankard": {
+        "en": "flask-or-tankard",
+        "pt-br": "Caneca"
+    },
+    "Flask or tankard": {
+        "en": "Flask or tankard",
+        "pt-br": "caneca"
+    },
+    "flute": {
+        "en": "flute",
+        "pt-br": "flauta"
+    },
+    "Flute": {
+        "en": "Flute",
+        "pt-br": "Flauta"
+    },
+    "forgery-kit": {
+        "en": "forgery-kit",
+        "pt-br": "kit-de-falsificação"
+    },
+    "Forgery Kit": {
+        "en": "Forgery Kit",
+        "pt-br": "Kit de falsificação"
+    },
+    "galley": {
+        "en": "galley",
+        "pt-br": "galera"
+    },
+    "Galley": {
+        "en": "Galley",
+        "pt-br": "Galera"
+    },
+    "Waterborne Vehicles": {
+        "en": "Waterborne Vehicles",
+        "pt-br": "Veículos Aquáticos"
+    },
+    "glaive": {
+        "en": "glaive",
+        "pt-br": "glaive"
+    },
+    "Glaive": {
+        "en": "Glaive",
+        "pt-br": "Glaive"
+    },
+    "glassblowers-tools": {
+        "en": "glassblowers-tools",
+        "pt-br": "ferramentas-de-vidreiro"
+    },
+    "Glassblower's tools": {
+        "en": "Glassblower's tools",
+        "pt-br": "Ferramentas de vidreiro"
+    },
+    "grappling-hook": {
+        "en": "grappling-hook",
+        "pt-br": "arpéu"
+    },
+    "Grappling hook": {
+        "en": "Grappling hook",
+        "pt-br": "Arpéu"
+    },
+    "greataxe": {
+        "en": "greataxe",
+        "pt-br": "machado-grande"
+    },
+    "Greataxe": {
+        "en": "Greataxe",
+        "pt-br": "Machado Grande"
+    },
+    "greatclub": {
+        "en": "greatclub",
+        "pt-br": "clava-grande"
+    },
+    "Greatclub": {
+        "en": "Greatclub",
+        "pt-br": "Clava Grande"
+    },
+    "greatsword": {
+        "en": "greatsword",
+        "pt-br": "espada-grande"
+    },
+    "Greatsword": {
+        "en": "Greatsword",
+        "pt-br": "Espada Grande"
+    },
+    "halberd": {
+        "en": "halberd",
+        "pt-br": "alabarda"
+    },
+    "Halberd": {
+        "en": "Halberd",
+        "pt-br": "Alabarda"
+    },
+    "half-plate": {
+        "en": "half-plate",
+        "pt-br": "meia-armadura"
+    },
+    "Half Plate": {
+        "en": "Half Plate",
+        "pt-br": "Meia-Armadura"
+    },
+    "hammer": {
+        "en": "hammer",
+        "pt-br": "martelo"
+    },
+    "Hammer": {
+        "en": "Hammer",
+        "pt-br": "Martelo"
+    },
+    "hammer-sledge": {
+        "en": "hammer-sledge",
+        "pt-br": "marreta"
+    },
+    "Hammer, sledge": {
+        "en": "Hammer, sledge",
+        "pt-br": "Marreta"
+    },
+    "handaxe": {
+        "en": "handaxe",
+        "pt-br": "machadinha"
+    },
+    "Handaxe": {
+        "en": "Handaxe",
+        "pt-br": "Machadinha"
+    },
+    "healers-kit": {
+        "en": "healers-kit",
+        "pt-br": "kit-de-primeiros-socorros"
+    },
+    "Healer's Kit": {
+        "en": "Healer's Kit",
+        "pt-br": "Kit de primeiros-socorros"
+    },
+    "herbalism-kit": {
+        "en": "herbalism-kit",
+        "pt-br": "kit-de-herbalismo"
+    },
+    "Herbalism Kit": {
+        "en": "Herbalism Kit",
+        "pt-br": "Kit de herbalismo"
+    },
+    "hide": {
+        "en": "hide",
+        "pt-br": "gibão-de-peles"
+    },
+    "Hide": {
+        "en": "Hide",
+        "pt-br": "Gibão de Peles"
+    },
+    "holy-water-flask": {
+        "en": "holy-water-flask",
+        "pt-br": "água-benta-frasco"
+    },
+    "Holy water (flask)": {
+        "en": "Holy water (flask)",
+        "pt-br": "Água benta (frasco)"
+    },
+    "horn": {
+        "en": "horn",
+        "pt-br": "trombeta"
+    },
+    "Horn": {
+        "en": "Horn",
+        "pt-br": "Trombeta"
+    },
+    "horse-draft": {
+        "en": "horse-draft",
+        "pt-br": "cavalo-pesado"
+    },
+    "Horse, draft": {
+        "en": "Horse, draft",
+        "pt-br": "Cavalo pesado"
+    },
+    "horse-riding": {
+        "en": "horse-riding",
+        "pt-br": "cavalo-de-montaria"
+    },
+    "Horse, riding": {
+        "en": "Horse, riding",
+        "pt-br": "Cavalo de montaria"
+    },
+    "hourglass": {
+        "en": "hourglass",
+        "pt-br": "ampulheta"
+    },
+    "Hourglass": {
+        "en": "Hourglass",
+        "pt-br": "Ampulheta"
+    },
+    "hunting-trap": {
+        "en": "hunting-trap",
+        "pt-br": "armadilha-de-caça"
+    },
+    "Hunting trap": {
+        "en": "Hunting trap",
+        "pt-br": "Armadilha de caça"
+    },
+    "ink-1-ounce-bottle": {
+        "en": "ink-1-ounce-bottle",
+        "pt-br": "tinta-frasco-de-30ml"
+    },
+    "Ink (1 ounce bottle)": {
+        "en": "Ink (1 ounce bottle)",
+        "pt-br": "Tinta (frasco de 30ml)"
+    },
+    "ink-pen": {
+        "en": "ink-pen",
+        "pt-br": "caneta-tinteiro"
+    },
+    "Ink pen": {
+        "en": "Ink pen",
+        "pt-br": "Caneta tinteiro"
+    },
+    "javelin": {
+        "en": "javelin",
+        "pt-br": "azagaia"
+    },
+    "Javelin": {
+        "en": "Javelin",
+        "pt-br": "Azagaia"
+    },
+    "jewelers-tools": {
+        "en": "jewelers-tools",
+        "pt-br": "ferramentas-de-joalheiro"
+    },
+    "Jeweler's tools": {
+        "en": "Jeweler's tools",
+        "pt-br": "Ferramentas de joalheiro"
+    },
+    "jug-or-pitcher": {
+        "en": "jug-or-pitcher",
+        "pt-br": "jarra"
+    },
+    "Jug or pitcher": {
+        "en": "Jug or pitcher",
+        "pt-br": "Jarra"
+    },
+    "keelboat": {
+        "en": "keelboat",
+        "pt-br": "barco-de-quilha"
+    },
+    "Keelboat": {
+        "en": "Keelboat",
+        "pt-br": "Barco de quilha"
+    },
+    "ladder-10-foot": {
+        "en": "ladder-10-foot",
+        "pt-br": "escada-3-metros"
+    },
+    "Ladder (10-foot)": {
+        "en": "Ladder (10-foot)",
+        "pt-br": "Escada (3 metros)"
+    },
+    "lamp": {
+        "en": "lamp",
+        "pt-br": "lâmpada"
+    },
+    "Lamp": {
+        "en": "Lamp",
+        "pt-br": "Lâmpada"
+    },
+    "lance": {
+        "en": "lance",
+        "pt-br": "lança-de-montaria"
+    },
+    "Lance": {
+        "en": "Lance",
+        "pt-br": "Lança de Montaria"
+    },
+    "lantern-bullseye": {
+        "en": "lantern-bullseye",
+        "pt-br": "lanterna-furta-fogo"
+    },
+    "Lantern, bullseye": {
+        "en": "Lantern, bullseye",
+        "pt-br": "Lanterna furta-fogo"
+    },
+    "lantern-hooded": {
+        "en": "lantern-hooded",
+        "pt-br": "lanterna-coberta"
+    },
+    "Lantern, hooded": {
+        "en": "Lantern, hooded",
+        "pt-br": "Lanterna coberta"
+    },
+    "leather": {
+        "en": "leather",
+        "pt-br": "couro"
+    },
+    "Leather": {
+        "en": "Leather",
+        "pt-br": "Couro"
+    },
+    "Light": {
+        "en": "Light",
+        "pt-br": "Leve"
+    },
+    "leatherworkers-tools": {
+        "en": "leatherworkers-tools",
+        "pt-br": "ferramentas-de-coureiro"
+    },
+    "Leatherworker's tools": {
+        "en": "Leatherworker's tools",
+        "pt-br": "Ferramentas de coureiro"
+    },
+    "light-hammer": {
+        "en": "light-hammer",
+        "pt-br": "martelo-leve"
+    },
+    "Light hammer": {
+        "en": "Light hammer",
+        "pt-br": "martelo-leve"
+    },
+    "lock": {
+        "en": "lock",
+        "pt-br": "fechadura"
+    },
+    "Lock": {
+        "en": "Lock",
+        "pt-br": "Fechadura"
+    },
+    "longbow": {
+        "en": "longbow",
+        "pt-br": "arco-longo"
+    },
+    "Longbow": {
+        "en": "Longbow",
+        "pt-br": "Arco Longo"
+    },
+    "longship": {
+        "en": "longship",
+        "pt-br": "dracar"
+    },
+    "Longship": {
+        "en": "Longship",
+        "pt-br": "Dracar"
+    },
+    "longsword": {
+        "en": "longsword",
+        "pt-br": "espada-longa"
+    },
+    "Longsword": {
+        "en": "Longsword",
+        "pt-br": "Espada Longa"
+    },
+    "lute": {
+        "en": "lute",
+        "pt-br": "alaúde"
+    },
+    "Lute": {
+        "en": "Lute",
+        "pt-br": "Alaúde"
+    },
+    "lyre": {
+        "en": "lyre",
+        "pt-br": "lira"
+    },
+    "Lyre": {
+        "en": "Lyre",
+        "pt-br": "Lira"
+    },
+    "mace": {
+        "en": "mace",
+        "pt-br": "maça"
+    },
+    "Mace": {
+        "en": "Mace",
+        "pt-br": "Maça"
+    },
+    "magnifying-glass": {
+        "en": "magnifying-glass",
+        "pt-br": "lente-de-aumento"
+    },
+    "Magnifying glass": {
+        "en": "Magnifying glass",
+        "pt-br": "Lente de aumento"
+    },
+    "manacles": {
+        "en": "manacles",
+        "pt-br": "algemas"
+    },
+    "Manacles": {
+        "en": "Manacles",
+        "pt-br": "Algemas"
+    },
+    "masons-tools": {
+        "en": "masons-tools",
+        "pt-br": "ferramentas-de-pedreiro"
+    },
+    "Mason's tools": {
+        "en": "Mason's tools",
+        "pt-br": "Ferramentas de pedreiro"
+    },
+    "mastiff": {
+        "en": "mastiff",
+        "pt-br": "mastim"
+    },
+    "Mastiff": {
+        "en": "Mastiff",
+        "pt-br": "Mastim"
+    },
+    "maul": {
+        "en": "maul",
+        "pt-br": "malho"
+    },
+    "Maul": {
+        "en": "Maul",
+        "pt-br": "Malho"
+    },
+    "mess-kit": {
+        "en": "mess-kit",
+        "pt-br": "kit-de-refeição"
+    },
+    "Mess Kit": {
+        "en": "Mess Kit",
+        "pt-br": "Kit de Refeição"
+    },
+    "mirror-steel": {
+        "en": "mirror-steel",
+        "pt-br": "espelho-de-aço"
+    },
+    "Mirror, steel": {
+        "en": "Mirror, steel",
+        "pt-br": "Espelho de aço"
+    },
+    "morningstar": {
+        "en": "morningstar",
+        "pt-br": "maça-estrela"
+    },
+    "Morningstar": {
+        "en": "Morningstar",
+        "pt-br": "Maça Estrela"
+    },
+    "mule": {
+        "en": "mule",
+        "pt-br": "mula"
+    },
+    "Mule": {
+        "en": "Mule",
+        "pt-br": "Mula"
+    },
+    "navigators-tools": {
+        "en": "navigators-tools",
+        "pt-br": "ferramentas-de-navegação"
+    },
+    "Navigator's tools": {
+        "en": "Navigator's tools",
+        "pt-br": "Ferramentas de navegação"
+    },
+    "Other Tools": {
+        "en": "Other Tools",
+        "pt-br": "Outras Ferramentas"
+    },
+    "net": {
+        "en": "net",
+        "pt-br": "rede"
+    },
+    "Net": {
+        "en": "Net",
+        "pt-br": "Rede"
+    },
+    "oil-flask": {
+        "en": "oil-flask",
+        "pt-br": "óleo-frasco"
+    },
+    "Oil (flask)": {
+        "en": "Oil (flask)",
+        "pt-br": "Óleo (frasco)"
+    },
+    "orb": {
+        "en": "orb",
+        "pt-br": "orbe"
+    },
+    "Orb": {
+        "en": "Orb",
+        "pt-br": "Orbe"
+    },
+    "padded": {
+        "en": "padded",
+        "pt-br": "acolchoado"
+    },
+    "Padded": {
+        "en": "Padded",
+        "pt-br": "Acolchoado"
+    },
+    "painters-supplies": {
+        "en": "painters-supplies",
+        "pt-br": "ferramentas-de-pintor"
+    },
+    "Painter's supplies": {
+        "en": "Painter's supplies",
+        "pt-br": "Ferramentas de pintor"
+    },
+    "pan-flute": {
+        "en": "pan-flute",
+        "pt-br": "flauta-de-pã"
+    },
+    "Pan flute": {
+        "en": "Pan flute",
+        "pt-br": "Flauta de pã"
+    },
+    "paper-one-sheet": {
+        "en": "paper-one-sheet",
+        "pt-br": "papel-uma-folha"
+    },
+    "Paper (one sheet)": {
+        "en": "Paper (one sheet)",
+        "pt-br": "Papel (uma folha)"
+    },
+    "parchment-one-sheet": {
+        "en": "parchment-one-sheet",
+        "pt-br": "pergaminho-uma-folha"
+    },
+    "Parchment (one sheet)": {
+        "en": "Parchment (one sheet)",
+        "pt-br": "Pergaminho (uma folha)"
+    },
+    "perfume-vial": {
+        "en": "perfume-vial",
+        "pt-br": "perfume-frasco"
+    },
+    "Perfume (vial)": {
+        "en": "Perfume (vial)",
+        "pt-br": "Perfume (frasco)"
+    },
+    "pick-miners": {
+        "en": "pick-miners",
+        "pt-br": "picareta-de-minerador"
+    },
+    "Pick, miner's": {
+        "en": "Pick, miner's",
+        "pt-br": "Picareta de minerador"
+    },
+    "pike": {
+        "en": "pike",
+        "pt-br": "lança-longa"
+    },
+    "Pike": {
+        "en": "Pike",
+        "pt-br": "Lança Longa"
+    },
+    "piton": {
+        "en": "piton",
+        "pt-br": "píton"
+    },
+    "Piton": {
+        "en": "Piton",
+        "pt-br": "Píton"
+    },
+    "plate": {
+        "en": "plate",
+        "pt-br": "placas"
+    },
+    "Plate": {
+        "en": "Plate",
+        "pt-br": "Placas"
+    },
+    "playing-card-set": {
+        "en": "playing-card-set",
+        "pt-br": "baralho-de-cartas"
+    },
+    "Playing card set": {
+        "en": "Playing card set",
+        "pt-br": "Baralho de cartas"
+    },
+    "poison-basic-vial": {
+        "en": "poison-basic-vial",
+        "pt-br": "veneno-básico-frasco"
+    },
+    "Poison, basic (vial)": {
+        "en": "Poison, basic (vial)",
+        "pt-br": "Veneno básico (frasco)"
+    },
+    "poisoners-kit": {
+        "en": "poisoners-kit",
+        "pt-br": "kit-de-venenos"
+    },
+    "Poisoner's Kit": {
+        "en": "Poisoner's Kit",
+        "pt-br": "Kit de venenos"
+    },
+    "pole-10-foot": {
+        "en": "pole-10-foot",
+        "pt-br": "vara-3-metros"
+    },
+    "Pole (10-foot)": {
+        "en": "Pole (10-foot)",
+        "pt-br": "Vara (3 metros)"
+    },
+    "pony": {
+        "en": "pony",
+        "pt-br": "pônei"
+    },
+    "Pony": {
+        "en": "Pony",
+        "pt-br": "Pônei"
+    },
+    "pot-iron": {
+        "en": "pot-iron",
+        "pt-br": "panela-de-ferro"
+    },
+    "Pot, iron": {
+        "en": "Pot, iron",
+        "pt-br": "Panela de Ferro"
+    },
+    "potion-of-healing": {
+        "en": "potion-of-healing",
+        "pt-br": "poção-de-cura"
+    },
+    "Potion of healing": {
+        "en": "Potion of healing",
+        "pt-br": "Poção de cura"
+    },
+    "potters-tools": {
+        "en": "potters-tools",
+        "pt-br": "ferramentas-de-oleiro"
+    },
+    "Potter's tools": {
+        "en": "Potter's tools",
+        "pt-br": "Ferramentas de oleiro"
+    },
+    "pouch": {
+        "en": "pouch",
+        "pt-br": "algibeira"
+    },
+    "Pouch": {
+        "en": "Pouch",
+        "pt-br": "Algibeira"
+    },
+    "priests-pack": {
+        "en": "priests-pack",
+        "pt-br": "pacote-de-sacerdote"
+    },
+    "Priest's Pack": {
+        "en": "Priest's Pack",
+        "pt-br": "Pacote de Sacerdote"
+    },
+    "quarterstaff": {
+        "en": "quarterstaff",
+        "pt-br": "bordão"
+    },
+    "Quarterstaff": {
+        "en": "Quarterstaff",
+        "pt-br": "Bordão"
+    },
+    "quiver": {
+        "en": "quiver",
+        "pt-br": "aljava"
+    },
+    "Quiver": {
+        "en": "Quiver",
+        "pt-br": "Aljava"
+    },
+    "ram-portable": {
+        "en": "ram-portable",
+        "pt-br": "aríete-portátil"
+    },
+    "Ram, portable": {
+        "en": "Ram, portable",
+        "pt-br": "Aríete portátil"
+    },
+    "rapier": {
+        "en": "rapier",
+        "pt-br": "rapieira"
+    },
+    "Rapier": {
+        "en": "Rapier",
+        "pt-br": "Rapieira"
+    },
+    "rations-1-day": {
+        "en": "rations-1-day",
+        "pt-br": "rações-de-viagem-1-dia"
+    },
+    "Rations (1 day)": {
+        "en": "Rations (1 day)",
+        "pt-br": "Rações de viagem (1 dia)"
+    },
+    "reliquary": {
+        "en": "reliquary",
+        "pt-br": "relicário"
+    },
+    "Reliquary": {
+        "en": "Reliquary",
+        "pt-br": "Relicário"
+    },
+    "riding": {
+        "en": "riding",
+        "pt-br": "viagem"
+    },
+    "Riding": {
+        "en": "Riding",
+        "pt-br": "Viagem"
+    },
+    "ring-mail": {
+        "en": "ring-mail",
+        "pt-br": "cota-de-anéis"
+    },
+    "Ring Mail": {
+        "en": "Ring Mail",
+        "pt-br": "Cota de anéis"
+    },
+    "robes": {
+        "en": "robes",
+        "pt-br": "robes"
+    },
+    "Robes": {
+        "en": "Robes",
+        "pt-br": "Robes"
+    },
+    "rod": {
+        "en": "rod",
+        "pt-br": "bastão"
+    },
+    "Rod": {
+        "en": "Rod",
+        "pt-br": "Bastão"
+    },
+    "rope-hempen-50-feet": {
+        "en": "rope-hempen-50-feet",
+        "pt-br": "corda-de-cânhamo-15-metros"
+    },
+    "Rope, hempen (50 feet)": {
+        "en": "Rope, hempen (50 feet)",
+        "pt-br": "Corda de cânhamo (15 metros)"
+    },
+    "rope-silk-50-feet": {
+        "en": "rope-silk-50-feet",
+        "pt-br": "corda-de-seda-15-metros"
+    },
+    "Rope, silk (50 feet)": {
+        "en": "Rope, silk (50 feet)",
+        "pt-br": "Corda de seda (15 metros)"
+    },
+    "rowboat": {
+        "en": "rowboat",
+        "pt-br": "barco-a-remo"
+    },
+    "Rowboat": {
+        "en": "Rowboat",
+        "pt-br": "Barco a remo"
+    },
+    "sack": {
+        "en": "sack",
+        "pt-br": "saco"
+    },
+    "Sack": {
+        "en": "Sack",
+        "pt-br": "Saco"
+    },
+    "saddle-exotic": {
+        "en": "saddle-exotic",
+        "pt-br": "exótica"
+    },
+    "Saddle, Exotic": {
+        "en": "Saddle, Exotic",
+        "pt-br": "Exótica"
+    },
+    "saddle-military": {
+        "en": "saddle-military",
+        "pt-br": "militar"
+    },
+    "Saddle, Military": {
+        "en": "Saddle, Military",
+        "pt-br": "Militar"
+    },
+    "saddle-pack": {
+        "en": "saddle-pack",
+        "pt-br": "compacta"
+    },
+    "Saddle, Pack": {
+        "en": "Saddle, Pack",
+        "pt-br": "Compacta"
+    },
+    "saddlebags": {
+        "en": "saddlebags",
+        "pt-br": "alforje"
+    },
+    "Saddlebags": {
+        "en": "Saddlebags",
+        "pt-br": "Alforje"
+    },
+    "sailing-ship": {
+        "en": "sailing-ship",
+        "pt-br": "veleiro"
+    },
+    "Sailing ship": {
+        "en": "Sailing ship",
+        "pt-br": "Veleiro"
+    },
+    "scale-mail": {
+        "en": "scale-mail",
+        "pt-br": "brunea"
+    },
+    "Scale Mail": {
+        "en": "Scale Mail",
+        "pt-br": "Brunea"
+    },
+    "scale-merchants": {
+        "en": "scale-merchants",
+        "pt-br": "balança-de-mercador"
+    },
+    "Scale, merchant's": {
+        "en": "Scale, merchant's",
+        "pt-br": "Balança de mercador"
+    },
+    "scholars-pack": {
+        "en": "scholars-pack",
+        "pt-br": "pacote-de-estudioso"
+    },
+    "Scholar's Pack": {
+        "en": "Scholar's Pack",
+        "pt-br": "Pacote de Estudioso"
+    },
+    "scimitar": {
+        "en": "scimitar",
+        "pt-br": "cimitarra"
+    },
+    "Scimitar": {
+        "en": "Scimitar",
+        "pt-br": "Cimitarra"
+    },
+    "sealing-wax": {
+        "en": "sealing-wax",
+        "pt-br": "parafina"
+    },
+    "Sealing wax": {
+        "en": "Sealing wax",
+        "pt-br": "Parafina"
+    },
+    "shawm": {
+        "en": "shawm",
+        "pt-br": "oboé"
+    },
+    "Shawm": {
+        "en": "Shawm",
+        "pt-br": "Oboé"
+    },
+    "shield": {
+        "en": "shield",
+        "pt-br": "escudo"
+    },
+    "Shield": {
+        "en": "Shield",
+        "pt-br": "Escudo"
+    },
+    "shortbow": {
+        "en": "shortbow",
+        "pt-br": "arco-curto"
+    },
+    "Shortbow": {
+        "en": "Shortbow",
+        "pt-br": "Arco Curto"
+    },
+    "shortsword": {
+        "en": "shortsword",
+        "pt-br": "espada-curta"
+    },
+    "Shortsword": {
+        "en": "Shortsword",
+        "pt-br": "Espada Curta"
+    },
+    "shovel": {
+        "en": "shovel",
+        "pt-br": "pá"
+    },
+    "Shovel": {
+        "en": "Shovel",
+        "pt-br": "Pá"
+    },
+    "sickle": {
+        "en": "sickle",
+        "pt-br": "foice-curta"
+    },
+    "Sickle": {
+        "en": "Sickle",
+        "pt-br": "Foice Curta"
+    },
+    "signal-whistle": {
+        "en": "signal-whistle",
+        "pt-br": "apito-de-advertência"
+    },
+    "Signal whistle": {
+        "en": "Signal whistle",
+        "pt-br": "Apito de advertência"
+    },
+    "signet-ring": {
+        "en": "signet-ring",
+        "pt-br": "sinete"
+    },
+    "Signet ring": {
+        "en": "Signet ring",
+        "pt-br": "Sinete"
+    },
+    "sled": {
+        "en": "sled",
+        "pt-br": "trenó"
+    },
+    "Sled": {
+        "en": "Sled",
+        "pt-br": "Trenó"
+    },
+    "sling": {
+        "en": "sling",
+        "pt-br": "funda"
+    },
+    "Sling": {
+        "en": "Sling",
+        "pt-br": "Funda"
+    },
+    "sling-bullet": {
+        "en": "sling-bullet",
+        "pt-br": "balas-de-funda"
+    },
+    "Sling bullet": {
+        "en": "Sling bullet",
+        "pt-br": "Balas de Funda"
+    },
+    "smiths-tools": {
+        "en": "smiths-tools",
+        "pt-br": "ferramentas-de-ferreiro"
+    },
+    "Smith's tools": {
+        "en": "Smith's tools",
+        "pt-br": "Ferramentas de ferreiro"
+    },
+    "soap": {
+        "en": "soap",
+        "pt-br": "sabão"
+    },
+    "Soap": {
+        "en": "Soap",
+        "pt-br": "Sabão"
+    },
+    "spear": {
+        "en": "spear",
+        "pt-br": "lança"
+    },
+    "Spear": {
+        "en": "Spear",
+        "pt-br": "Lança"
+    },
+    "spellbook": {
+        "en": "spellbook",
+        "pt-br": "grimório"
+    },
+    "Spellbook": {
+        "en": "Spellbook",
+        "pt-br": "Grimório"
+    },
+    "spike-iron": {
+        "en": "spike-iron",
+        "pt-br": "pregos-de-ferro"
+    },
+    "Spike, iron": {
+        "en": "Spike, iron",
+        "pt-br": "Pregos de ferro"
+    },
+    "splint": {
+        "en": "splint",
+        "pt-br": "cota-de-talas"
+    },
+    "Splint": {
+        "en": "Splint",
+        "pt-br": "Cota de talas"
+    },
+    "sprig-of-mistletoe": {
+        "en": "sprig-of-mistletoe",
+        "pt-br": "ramo-de-visco"
+    },
+    "Sprig of mistletoe": {
+        "en": "Sprig of mistletoe",
+        "pt-br": "Ramo de visco"
+    },
+    "Druidic Focus": {
+        "en": "Druidic Focus",
+        "pt-br": "Foco druídico"
+    },
+    "druidic-foci": {
+        "en": "druidic-foci",
+        "pt-br": "foco-druídico"
+    },
+    "Druidic Foci": {
+        "en": "Druidic Foci",
+        "pt-br": "Foco druídico"
+    },
+    "spyglass": {
+        "en": "spyglass",
+        "pt-br": "luneta"
+    },
+    "Spyglass": {
+        "en": "Spyglass",
+        "pt-br": "Luneta"
+    },
+    "stabling-1-day": {
+        "en": "stabling-1-day",
+        "pt-br": "estábulo"
+    },
+    "Stabling (1 day)": {
+        "en": "Stabling (1 day)",
+        "pt-br": "Estábulo"
+    },
+    "staff": {
+        "en": "staff",
+        "pt-br": "cajado"
+    },
+    "Staff": {
+        "en": "Staff",
+        "pt-br": "Cajado"
+    },
+    "studded-leather": {
+        "en": "studded-leather",
+        "pt-br": "couro-batido"
+    },
+    "Studded Leather": {
+        "en": "Studded Leather",
+        "pt-br": "Couro Batido"
+    },
+    "tent-two-person": {
+        "en": "tent-two-person",
+        "pt-br": "tenda-para-duas-pessoas"
+    },
+    "Tent, two-person": {
+        "en": "Tent, two-person",
+        "pt-br": "Tenda para duas pessoas"
+    },
+    "thieves-tools": {
+        "en": "thieves-tools",
+        "pt-br": "ferramentas-de-ladrão"
+    },
+    "Thieves' tools": {
+        "en": "Thieves' tools",
+        "pt-br": "Ferramentas de ladrão"
+    },
+    "tinderbox": {
+        "en": "tinderbox",
+        "pt-br": "caixa-de-fogo"
+    },
+    "Tinderbox": {
+        "en": "Tinderbox",
+        "pt-br": "Caixa de Fogo"
+    },
+    "tinkers-tools": {
+        "en": "tinkers-tools",
+        "pt-br": "ferramentas-de-funileiro"
+    },
+    "Tinker's tools": {
+        "en": "Tinker's tools",
+        "pt-br": "Ferramentas de funileiro"
+    },
+    "torch": {
+        "en": "torch",
+        "pt-br": "tocha"
+    },
+    "Torch": {
+        "en": "Torch",
+        "pt-br": "Tocha"
+    },
+    "totem": {
+        "en": "totem",
+        "pt-br": "totem"
+    },
+    "Totem": {
+        "en": "Totem",
+        "pt-br": "Totem"
+    },
+    "trident": {
+        "en": "trident",
+        "pt-br": "tridente"
+    },
+    "Trident": {
+        "en": "Trident",
+        "pt-br": "Tridente"
+    },
+    "vial": {
+        "en": "vial",
+        "pt-br": "frasco"
+    },
+    "Vial": {
+        "en": "Vial",
+        "pt-br": "Frasco"
+    },
+    "viol": {
+        "en": "viol",
+        "pt-br": "violino"
+    },
+    "Viol": {
+        "en": "Viol",
+        "pt-br": "Violino"
+    },
+    "wagon": {
+        "en": "wagon",
+        "pt-br": "vagão"
+    },
+    "Wagon": {
+        "en": "Wagon",
+        "pt-br": "Vagão"
+    },
+    "wand": {
+        "en": "wand",
+        "pt-br": "varinha"
+    },
+    "Wand": {
+        "en": "Wand",
+        "pt-br": "Varinha"
+    },
+    "war-pick": {
+        "en": "war-pick",
+        "pt-br": "picareta-de-guerra"
+    },
+    "War pick": {
+        "en": "War pick",
+        "pt-br": "Picareta de Guerra"
+    },
+    "warhammer": {
+        "en": "warhammer",
+        "pt-br": "martelo-de-guerra"
+    },
+    "Warhammer": {
+        "en": "Warhammer",
+        "pt-br": "Martelo de Guerra"
+    },
+    "warhorse": {
+        "en": "warhorse",
+        "pt-br": "cavalo-de-guerra"
+    },
+    "Warhorse": {
+        "en": "Warhorse",
+        "pt-br": "Cavalo de guerra"
+    },
+    "warship": {
+        "en": "warship",
+        "pt-br": "navio-de-guerra"
+    },
+    "Warship": {
+        "en": "Warship",
+        "pt-br": "Navio de guerra"
+    },
+    "waterskin": {
+        "en": "waterskin",
+        "pt-br": "cantil"
+    },
+    "Waterskin": {
+        "en": "Waterskin",
+        "pt-br": "Cantil"
+    },
+    "weavers-tools": {
+        "en": "weavers-tools",
+        "pt-br": "ferramentas-de-costureiro"
+    },
+    "Weaver's tools": {
+        "en": "Weaver's tools",
+        "pt-br": "Ferramentas de costureiro"
+    },
+    "whetstone": {
+        "en": "whetstone",
+        "pt-br": "pedra-de-amolar"
+    },
+    "Whetstone": {
+        "en": "Whetstone",
+        "pt-br": "Pedra de amolar"
+    },
+    "whip": {
+        "en": "whip",
+        "pt-br": "chicote"
+    },
+    "Whip": {
+        "en": "Whip",
+        "pt-br": "Chicote"
+    },
+    "woodcarvers-tools": {
+        "en": "woodcarvers-tools",
+        "pt-br": "ferramentas-de-entalhador"
+    },
+    "Woodcarver's tools": {
+        "en": "Woodcarver's tools",
+        "pt-br": "Ferramentas de entalhador"
+    },
+    "wooden-staff": {
+        "en": "wooden-staff",
+        "pt-br": "cajado-de-madeira"
+    },
+    "Wooden staff": {
+        "en": "Wooden staff",
+        "pt-br": "Cajado de madeira"
+    },
+    "yew-wand": {
+        "en": "yew-wand",
+        "pt-br": "varinha-de-teixo"
+    },
+    "Yew wand": {
+        "en": "Yew wand",
+        "pt-br": "Varinha de teixo"
+    },
+    "add": {
+        "en": "Add",
+        "pt-br": "Adicionar"
+    },
+    "remove": {
+        "en": "Remove",
+        "pt-br": "Remover"
+    },
+    "title": {
+        "en": "Weight calculator",
+        "pt-br": "Calculadora de peso"
+    },
+    "info": {
+        "en": "Well, if you find any bug, have an idea or follow up on future project updates, just click on the following link:",
+        "pt-br": "Bem, se você encontrar algum bug, tiver alguma ideia ou acompanhar futuras atualizações do projeto, é só clickar no link a seguir:"
+    },
+    "link-text": {
+        "en": "Informations",
+        "pt-br": "Informações"
+    },
+    "total-weight": {
+        "en": "Total weight",
+        "pt-br": "Peso total"
+    },
+    "inv-info": {
+        "en": "You haven't added any items to your inventory yet",
+        "pt-br": "Você não adicionou nenhum item ao inventário ainda"
+    },
+    "idiom": {
+        "en": "Select your idiom",
+        "pt-br": "Selecione seu idioma"
+    },
+    "search": {
+        "en": "Search an item!",
+        "pt-br": "Pesquise um item!"
+    }
 }

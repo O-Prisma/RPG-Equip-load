@@ -2,8 +2,6 @@ import styled from 'styled-components';
 
 const Container = styled.div`
 
-    /**#800000 */
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,13 +10,32 @@ const Container = styled.div`
     header.header {
 
         width: 100%;
-        padding: 20px;
+        padding: 20px 0;
         display: flex;
         flex-direction: column;
         gap: 20px;
         justify-content: center;
         align-items: center;
         background-color: #090809;
+
+    }
+
+    .idiom-selector-container {
+        color: #979AA4;
+        gap: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .idiom-selector-container select {
+
+        height: fit-content;
+        text-align: center;
+        padding: 10px;
+        outline: none;
+        border: none;
+        border-radius: 8px 8px 0 0;
 
     }
 
@@ -74,7 +91,7 @@ const Container = styled.div`
     
     .top-main .info-container {
         
-        padding: 20px;
+        padding: 20px 0;
         background-color: #26282A;
         color: #FFF;
         width: 100%;
@@ -96,7 +113,7 @@ const Container = styled.div`
         padding: 5px;
         border: none;
         font-weight: 700;
-        background: #800000;
+        background: ${({ theme }) => theme.colors.primary};
         color: #FFF;
         font-size: 20px;
         outline: none;
@@ -148,7 +165,7 @@ const Container = styled.div`
 
     .top-main .inventory-container .inventory-list::-webkit-scrollbar-thumb {
 
-        background-color: #800000;
+        background-color: ${({ theme }) => theme.colors.primary};
         border-radius: 0 0 8px 8px;
 
     }
@@ -162,6 +179,40 @@ const Container = styled.div`
     .top-main .inventory-container .inventory-list .item {
 
         background: #EEEE;
+
+    }
+
+    .top-main .inventory-container .inventory-list .item .quantity-container {
+
+        display: flex;
+        gap: 10px;
+        color: #090809;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .top-main .inventory-container .inventory-list .item .quantity-container button {
+
+        padding: 5px;
+        border-radius: 4px;
+        border: none;
+        background: ${({ theme }) => theme.colors.primary};
+        color: #FFF;
+        width: 50px;
+        height: 25px;
+        cursor: pointer;
+
+    }
+
+    .top-main .inventory-container .inventory-list .item .quantity-container p {
+
+        background: #FFF;
+        padding: 5px;
+        font-weight: 700;
+        text-align: center;
+        width: 50px;
+        border-radius: 8px;
 
     }
 
@@ -205,7 +256,7 @@ const Container = styled.div`
 
     .item .item-name {
 
-        background-color: #800000;
+        background-color: ${({ theme }) => theme.colors.primary};
         display: block;
         padding: 10px;
         width: 90%;
@@ -229,7 +280,7 @@ const Container = styled.div`
 
     .item .toggle-equip-inventory {
 
-        background-color: #800000;
+        background-color: ${({ theme }) => theme.colors.primary};
         border: none;
         font-weight: 700;
         display: block;
@@ -249,7 +300,7 @@ const Container = styled.div`
     .item .toggle-equip-inventory:hover {
 
         background-color: #FFF;
-        color: #800000;
+        color: ${({ theme }) => theme.colors.primary};
 
     }
 
@@ -275,10 +326,14 @@ const Container = styled.div`
         font-size: 3em;
         text-align: center;
         font-weight: 700;
-        background-color: #800000;
+        background-color: ${({ theme }) => theme.colors.primary};
         color: #FFF;
         border: none;
         outline: none;
+
+        padding-top: 20px;
+        display: flex;
+        justify-content: center;
 
         cursor: pointer;
 
@@ -303,6 +358,7 @@ const Container = styled.div`
         text-decoration: none;
         color: #9C0E0E;
         transition: all 0.4s;
+        margin-left: 5px;
 
     }
 

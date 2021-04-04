@@ -2,7 +2,7 @@ export default function reduceWeigths(acc, actualEquip) {
 
     if (actualEquip?.weight) {
         
-        return acc + (actualEquip.weight / 2)
+        return acc + ((actualEquip.weight / 2) * actualEquip.amount)
         
     }
 

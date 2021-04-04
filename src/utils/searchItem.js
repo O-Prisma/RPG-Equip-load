@@ -1,4 +1,4 @@
-export default function searchItem(e, equips, translations, setEquipsRows, getEquipmentsRow) {
+export default function searchItem(e, equips, lang, translations, setEquipsRows, getEquipmentsRow) {
 
     e.preventDefault();
 
@@ -11,8 +11,8 @@ export default function searchItem(e, equips, translations, setEquipsRows, getEq
             return (
                 (name.toLowerCase().includes(value)) ||
                 (index.toLowerCase().includes(value)) ||
-                (translations[name].toLowerCase().includes(value)) ||
-                (translations[index].toLowerCase().includes(value))
+                (translations[name][lang].toLowerCase().includes(value)) ||
+                (translations[index][lang].toLowerCase().includes(value))
             );
             
         });

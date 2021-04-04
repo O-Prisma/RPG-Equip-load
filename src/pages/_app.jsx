@@ -1,6 +1,34 @@
+import { createGlobalStyle, ThemeProvider } from 'styled-components';
 import Head from 'next/head';
 
-import '../assets/global/styles.css';
+const GlobalStyle = createGlobalStyle`
+    body {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+
+        font-family: 
+            -apple-system, 
+            BlinkMacSystemFont, 
+            'Segoe UI', 
+            Roboto, 
+            Oxygen, 
+            Ubuntu, 
+            Cantarell, 
+            'Open Sans', 
+            'Helvetica Neue', 
+            sans-serif
+        ;
+
+        background: #ececec;
+    }
+`
+
+const theme = {
+    colors: {
+        primary: "#800000"
+    }
+}
 
 export default function MyApp({ Component, pageProps }) {
 
@@ -25,7 +53,10 @@ export default function MyApp({ Component, pageProps }) {
                 <meta name="msapplication-TileImage" content="/images/ms-icon-144x144.png" />
                 <meta name="theme-color" content="#ffffff" />
             </Head>
-            <Component {...pageProps} />
+            <GlobalStyle />
+            <ThemeProvider theme={theme}>
+                <Component {...pageProps} />
+            </ThemeProvider>
         </>
     )
 

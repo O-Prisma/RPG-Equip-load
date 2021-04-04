@@ -17,6 +17,7 @@ export default function Index({ equips }) {
 
     const [inventory, setInventory] = useState([]);
     const [weight, setWeight] = useState(0);
+    const [lang, setLang] = useState('pt-br');
 
     const [inventoryRows, setInventoryRows] = useState(
         inventory.map(getEquipmentsRow)
@@ -26,6 +27,7 @@ export default function Index({ equips }) {
     useEffect(() => {
 
         const ls = window.localStorage.getItem('inventory');
+        const langLs = window.localStorage.getItem('lang');
 
         if (ls) {
             
@@ -35,6 +37,16 @@ export default function Index({ equips }) {
             
             window.localStorage.setItem('inventory', JSON.stringify(inventory));
             
+        }
+
+        if (langLs) {
+
+            setLang(JSON.parse(langLs))
+
+        } else {
+
+            window.localStorage.setItem('lang', JSON.stringify(lang));
+
         }
         
         setWeight(
@@ -56,19 +68,20 @@ export default function Index({ equips }) {
         setInventoryRows(inventory.map(getEquipmentsRow));
         setEquipsRows(equips.map(getEquipmentsRow));
         
-    }, [inventory]);
+    }, [inventory, lang]);
     
     function getEquipmentsRow(equip) {
-        
+
         return (
 
             <EquipmentRow
                 key={equip.index}
-                index={translations[equip.index]}
-                name={translations[equip.name]}
-                cost={{quantity: equip.cost.quantity, unit: translations[equip.cost.unit]}}
-                category={translations[equip['equipment_category'].name]}
-                type={translations[checkEquipmentType(equip)]}
+                index={translations[equip.index][lang]}
+                name={translations[equip.name][lang]}
+                cost={{quantity: equip.cost.quantity, unit: translations[equip.cost.unit][lang]}}
+                category={translations[equip['equipment_category'].name][lang]}
+                type={translations[checkEquipmentType(equip)][lang]}
+                lang={lang}
                 weight={checkEquipmentWeight(equip, equips)}
             >
 
@@ -84,7 +97,10 @@ export default function Index({ equips }) {
                         
                     } else {
                         
-                        newInventory.push(equip);
+                        newInventory.push({
+                            ...equip,
+                            amount: 1
+                        });
                         
                     }
                     
@@ -106,9 +122,67 @@ export default function Index({ equips }) {
                 }}>
                     {(
                         inventory.find(inv => inv.index == equip.index)
-                    ) ? `- Remover ` : `+ Adicionar `} 
+                    ) ? `- ${translations["remove"][lang]} ` : `+ ${translations['add'][lang]} `} 
                     Item!
                 </button>
+
+                {Boolean(equip.amount) ? (<div className="quantity-container">
+                    <button className="add-quantity" onClick={e => {
+                        e.preventDefault();
+                        
+                        let newInv = inventory;
+                        let index = (inventory.findIndex(inv => inv.index == equip.index));
+
+                        if (index > -1) {
+                        
+                            newInv[index].amount += 1;
+                         
+                            setInventory(newInv);
+                    
+                            window.localStorage.setItem(
+                                'inventory', JSON.stringify(inventory)
+                            );
+                            
+                            setWeight(
+                                inventory.reduce(
+                                    reduceWeigths, 0
+                                ).toString().split('.').join(',')
+                            );
+
+                            setInventoryRows(inventory.map(getEquipmentsRow));
+                        }
+                        
+                    }}>+</button>
+                    <p className="quantity">{equip.amount}</p>
+                    <button className="sub-quantity" onClick={e => {
+                        let newInv = inventory;
+                        let index = (inventory.findIndex(inv => inv.index == equip.index));
+
+                        if (index > -1) {
+                        
+                            if (newInv[index].amount > 1) {
+                                
+                                newInv[index].amount -= 1;
+                            
+                                setInventory(newInv);
+                        
+                                window.localStorage.setItem(
+                                    'inventory', JSON.stringify(inventory)
+                                );
+                                
+                                setWeight(
+                                    inventory.reduce(
+                                        reduceWeigths, 0
+                                    ).toString().split('.').join(',')
+                                );
+
+                                setInventoryRows(inventory.map(getEquipmentsRow));
+                            }
+
+                        }
+
+                    }}>-</button>
+                </div>) : ''}
 
             </EquipmentRow>
 
@@ -121,7 +195,7 @@ export default function Index({ equips }) {
         <Container>
 
             <Head>
-                <title>Calculadora de peso!</title>
+                <title>{translations['title'][lang]}!</title>
                 <link
                     href="https://fonts.googleapis.com/icon?family=Material+Icons"
                     rel="stylesheet"
@@ -130,16 +204,39 @@ export default function Index({ equips }) {
 
             <header className="header">
 
+                <div className="idiom-selector-container">
+                    <p className="idiom-info">{translations['idiom'][lang]}: </p>
+                    <select className="idiom" value={lang} onChange={(e) => {
+                        e.preventDefault();
+                        setLang(e.target.value);
+                    
+                        window.localStorage.setItem('lang', JSON.stringify(lang));
+                        
+                        setWeight(
+                            inventory.reduce(
+                                reduceWeigths, 0
+                            ).toString().split('.').join(',')
+                        );
+
+                        setInventoryRows(inventory.map(getEquipmentsRow));
+                        setEquipsRows(equips.map(getEquipmentsRow));
+                    }}>
+                        <option value="pt-br">Português Brasileiro</option>
+                        <option value="en">English</option>
+                    </select>
+                </div>
+
                 <div className="search-bar-container">
 
                     <input
                         type="text"
                         className="search-bar"
-                        placeholder="Pesquise um item!"
+                        placeholder={translations['search'][lang]}
                         onChange={(e) => {
                             searchItem(
                                 e, 
                                 equips, 
+                                lang,
                                 translations, 
                                 setEquipsRows, 
                                 getEquipmentsRow
@@ -154,9 +251,8 @@ export default function Index({ equips }) {
                 </div>
 
                 <h4 className="info">
-                    Bem, se você encontrar algum bug, tiver alguma ideia, ou 
-                    acompanhar futuras atualizações do projeto, é só clickar 
-                    no link a seguir: <a href="https://github.com/O-Prisma/RPG-Equip-load">Informações</a>
+                    {translations['info'][lang]} 
+                    <a href="https://github.com/O-Prisma/RPG-Equip-load">{translations['link-text'][lang]}</a>
                 </h4>
 
             </header>
@@ -166,7 +262,7 @@ export default function Index({ equips }) {
                 <div className="top-main">
                 
                     <div className="info-container">
-                        <p className="info-label">Peso total: </p>
+                        <p className="info-label">{translations['total-weight'][lang]}: </p>
                         <p className="info-data">{weight} kg</p>
                     </div>
                     
@@ -187,7 +283,7 @@ export default function Index({ equips }) {
 
                             {inventoryRows.length > 0 ? inventoryRows : (
                                 <h2 className="inventory-info">
-                                    Você não adicionou nenhum item ao inventário ainda!
+                                    {translations['inv-info'][lang]}!
                                 </h2>
                             )}
 

@@ -17,8 +17,8 @@ The main goal is to make the site super efficient and useful for RPG players, an
 List of planned features to be implemented:
 
 - [X] Calculated equipments and other items weight.
-- [ ] English translation.
-- [ ] Amount of the item for the weight calculatiom.
+- [X] English translation.
+- [X] Amount of the item for the weight calculatiom.
 - [ ] Use the selected item's page to have more information.
 
 # Report a Bug
@@ -47,8 +47,8 @@ To **make a change or feature yourself** you will need to know JavaScript and Ne
 # Metas e Futuros Recursos
 
 - [X] Calcular o peso de equipamentos e outros itens.
-- [ ] Tradução para inglês.
-- [ ] Quantidade do item para o calculo de peso.
+- [X] Tradução para inglês.
+- [X] Quantidade do item para o calculo de peso.
 - [ ] Usar a página do item selecionado para dispor mais informações sobre o item.
 
 # Reportar um Erro

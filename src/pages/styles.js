@@ -387,13 +387,6 @@ const Container = styled.div`
 
         }
 
-        header, .info-container, 
-        .inventory-minimize {
-
-            padding: 20px;
-            
-        }
-
         .item {
             min-width: 250px;
             height: auto;

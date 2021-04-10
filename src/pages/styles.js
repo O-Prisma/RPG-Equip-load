@@ -331,9 +331,9 @@ const Container = styled.div`
         border: none;
         outline: none;
 
-        padding-top: 20px;
         display: flex;
         justify-content: center;
+        align-items: center;
 
         cursor: pointer;
 
@@ -377,7 +377,7 @@ const Container = styled.div`
             right: 20px;
             width: 50px;
             height: 50px;
-            font-size: 1em;
+            font-size: 20px;
 
         }
 
@@ -392,6 +392,16 @@ const Container = styled.div`
 
             padding: 20px;
             
+        }
+
+        .item {
+            min-width: 250px;
+            height: auto;
+            padding: 10px;
+        }
+
+        .item .item-properties .property {
+            margin: 5px 0;
         }
 
     }
